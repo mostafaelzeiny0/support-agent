@@ -1,0 +1,5554 @@
+[
+  {
+    "order_id": "ord_000001",
+    "customer_id": "cust_0001",
+    "customer_name": "Patrick Sanchez",
+    "customer_email": "jillrhodes@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 239.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:51:03",
+    "estimated_delivery": "2026-06-17T21:51:03",
+    "tracking_number": "NM362950628"
+  },
+  {
+    "order_id": "ord_000002",
+    "customer_id": "cust_0002",
+    "customer_name": "Amanda Davis",
+    "customer_email": "williamjohnson@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 254.96,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:20",
+    "estimated_delivery": "2026-06-19T21:46:20",
+    "tracking_number": "NM193349856"
+  },
+  {
+    "order_id": "ord_000003",
+    "customer_id": "cust_0003",
+    "customer_name": "Jennifer Cole",
+    "customer_email": "lisa02@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 137.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:51:08",
+    "estimated_delivery": "2026-06-19T21:51:08",
+    "tracking_number": "NM313500298"
+  },
+  {
+    "order_id": "ord_000004",
+    "customer_id": "cust_0004",
+    "customer_name": "Christopher Bernard",
+    "customer_email": "curtis61@example.com",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 219.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:12",
+    "estimated_delivery": "2026-06-17T21:49:12",
+    "tracking_number": "NM398362082"
+  },
+  {
+    "order_id": "ord_000005",
+    "customer_id": "cust_0005",
+    "customer_name": "Renee Blair",
+    "customer_email": "dudleynicholas@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 65.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:32",
+    "estimated_delivery": "2026-06-15T21:48:32",
+    "tracking_number": "NM485451171"
+  },
+  {
+    "order_id": "ord_000006",
+    "customer_id": "cust_0006",
+    "customer_name": "Lisa Hensley",
+    "customer_email": "janetwilliams@example.org",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 355.92,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:06",
+    "estimated_delivery": "2026-06-15T21:48:06",
+    "tracking_number": "NM692749116"
+  },
+  {
+    "order_id": "ord_000007",
+    "customer_id": "cust_0007",
+    "customer_name": "Dr. Sharon James",
+    "customer_email": "xreid@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 299.95,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:04",
+    "estimated_delivery": "2026-06-16T21:48:04",
+    "tracking_number": "NM930075810"
+  },
+  {
+    "order_id": "ord_000008",
+    "customer_id": "cust_0008",
+    "customer_name": "Michael Miles",
+    "customer_email": "lynchgeorge@example.net",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      }
+    ],
+    "total_price": 9.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:48:45",
+    "estimated_delivery": "2026-06-18T21:48:45",
+    "tracking_number": "NM398471886"
+  },
+  {
+    "order_id": "ord_000009",
+    "customer_id": "cust_0009",
+    "customer_name": "James Mayo",
+    "customer_email": "gabriellecameron@example.org",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 229.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:41",
+    "estimated_delivery": "2026-06-15T21:47:41",
+    "tracking_number": "NM754049436"
+  },
+  {
+    "order_id": "ord_000010",
+    "customer_id": "cust_0010",
+    "customer_name": "Renee Morales",
+    "customer_email": "clarksherri@example.net",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 229.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:47:33",
+    "estimated_delivery": "2026-06-19T21:47:33",
+    "tracking_number": "NM335809993"
+  },
+  {
+    "order_id": "ord_000011",
+    "customer_id": "cust_0011",
+    "customer_name": "Jonathan Wilkerson",
+    "customer_email": "ithomas@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      }
+    ],
+    "total_price": 9.99,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:17",
+    "estimated_delivery": "2026-06-17T21:48:17",
+    "tracking_number": "NM530747414"
+  },
+  {
+    "order_id": "ord_000012",
+    "customer_id": "cust_0012",
+    "customer_name": "Nicole Patterson",
+    "customer_email": "icox@example.net",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 29.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:23",
+    "estimated_delivery": "2026-06-17T21:50:23",
+    "tracking_number": "NM328306011"
+  },
+  {
+    "order_id": "ord_000013",
+    "customer_id": "cust_0013",
+    "customer_name": "Anthony Rodriguez",
+    "customer_email": "laurahenderson@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 349.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:48",
+    "estimated_delivery": "2026-06-19T21:49:48",
+    "tracking_number": "NM382116655"
+  },
+  {
+    "order_id": "ord_000014",
+    "customer_id": "cust_0014",
+    "customer_name": "Zachary Rice",
+    "customer_email": "frazierdanny@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 174.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:53",
+    "estimated_delivery": "2026-06-15T21:48:53",
+    "tracking_number": "NM217734861"
+  },
+  {
+    "order_id": "ord_000015",
+    "customer_id": "cust_0015",
+    "customer_name": "Gina Carter",
+    "customer_email": "shawnmckay@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 154.97,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:52",
+    "estimated_delivery": "2026-06-18T21:47:52",
+    "tracking_number": "NM509760584"
+  },
+  {
+    "order_id": "ord_000016",
+    "customer_id": "cust_0016",
+    "customer_name": "Pamela Romero",
+    "customer_email": "harrellkenneth@example.net",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      }
+    ],
+    "total_price": 998.91,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:47:50",
+    "estimated_delivery": "2026-06-19T21:47:50",
+    "tracking_number": "NM906248900"
+  },
+  {
+    "order_id": "ord_000017",
+    "customer_id": "cust_0017",
+    "customer_name": "Brittany Farmer",
+    "customer_email": "georgetracy@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 145.96,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:55",
+    "estimated_delivery": "2026-06-17T21:49:55",
+    "tracking_number": "NM637500247"
+  },
+  {
+    "order_id": "ord_000018",
+    "customer_id": "cust_0018",
+    "customer_name": "Sandra Parker",
+    "customer_email": "allenashley@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 139.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:41",
+    "estimated_delivery": "2026-06-19T21:48:41",
+    "tracking_number": "NM753876785"
+  },
+  {
+    "order_id": "ord_000019",
+    "customer_id": "cust_0019",
+    "customer_name": "Rose Spence",
+    "customer_email": "davidalvarez@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      }
+    ],
+    "total_price": 789.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:46:19",
+    "estimated_delivery": "2026-06-15T21:46:19",
+    "tracking_number": "NM743111853"
+  },
+  {
+    "order_id": "ord_000020",
+    "customer_id": "cust_0020",
+    "customer_name": "Shane Henderson",
+    "customer_email": "sarahcampos@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 199.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:47:00",
+    "estimated_delivery": "2026-06-15T21:47:00",
+    "tracking_number": "NM191969690"
+  },
+  {
+    "order_id": "ord_000021",
+    "customer_id": "cust_0021",
+    "customer_name": "Jennifer Powers",
+    "customer_email": "samuel87@example.org",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 249.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:47:18",
+    "estimated_delivery": "2026-06-16T21:47:18",
+    "tracking_number": "NM808402051"
+  },
+  {
+    "order_id": "ord_000022",
+    "customer_id": "cust_0022",
+    "customer_name": "George Chapman",
+    "customer_email": "briannasmith@example.net",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 134.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:42",
+    "estimated_delivery": "2026-06-16T21:47:42",
+    "tracking_number": "NM679064766"
+  },
+  {
+    "order_id": "ord_000023",
+    "customer_id": "cust_0023",
+    "customer_name": "Austin Johnson",
+    "customer_email": "chad34@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 499.92,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:59",
+    "estimated_delivery": "2026-06-18T21:50:59",
+    "tracking_number": "NM229927269"
+  },
+  {
+    "order_id": "ord_000024",
+    "customer_id": "cust_0024",
+    "customer_name": "Carlos Walls",
+    "customer_email": "esanchez@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 265.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:44",
+    "estimated_delivery": "2026-06-19T21:49:44",
+    "tracking_number": "NM347083812"
+  },
+  {
+    "order_id": "ord_000025",
+    "customer_id": "cust_0025",
+    "customer_name": "Matthew Gomez",
+    "customer_email": "uowens@example.org",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 214.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:13",
+    "estimated_delivery": "2026-06-15T21:47:13",
+    "tracking_number": "NM345824373"
+  },
+  {
+    "order_id": "ord_000026",
+    "customer_id": "cust_0026",
+    "customer_name": "Maria Brown",
+    "customer_email": "lauren13@example.org",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      }
+    ],
+    "total_price": 39.99,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:51:20",
+    "estimated_delivery": "2026-06-19T21:51:20",
+    "tracking_number": "NM355555531"
+  },
+  {
+    "order_id": "ord_000027",
+    "customer_id": "cust_0027",
+    "customer_name": "Brenda White",
+    "customer_email": "ewright@example.com",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 179.9,
+    "status": "returned",
+    "order_date": "2026-06-12T21:47:13",
+    "estimated_delivery": "2026-06-18T21:47:13",
+    "tracking_number": "NM967043303"
+  },
+  {
+    "order_id": "ord_000028",
+    "customer_id": "cust_0028",
+    "customer_name": "Matthew Fernandez",
+    "customer_email": "novaksara@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 152.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:17",
+    "estimated_delivery": "2026-06-17T21:50:17",
+    "tracking_number": "NM554814084"
+  },
+  {
+    "order_id": "ord_000029",
+    "customer_id": "cust_0029",
+    "customer_name": "John Hancock",
+    "customer_email": "martinaaron@example.com",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      }
+    ],
+    "total_price": 484.93,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:01",
+    "estimated_delivery": "2026-06-17T21:47:01",
+    "tracking_number": "NM959629660"
+  },
+  {
+    "order_id": "ord_000030",
+    "customer_id": "cust_0030",
+    "customer_name": "Rachel Mitchell",
+    "customer_email": "smoore@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      }
+    ],
+    "total_price": 509.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:51",
+    "estimated_delivery": "2026-06-16T21:47:51",
+    "tracking_number": "NM552991960"
+  },
+  {
+    "order_id": "ord_000031",
+    "customer_id": "cust_0031",
+    "customer_name": "Kimberly Adkins",
+    "customer_email": "williamsthomas@example.net",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 305.96,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:05",
+    "estimated_delivery": "2026-06-15T21:46:05",
+    "tracking_number": "NM800235246"
+  },
+  {
+    "order_id": "ord_000032",
+    "customer_id": "cust_0032",
+    "customer_name": "Jordan York",
+    "customer_email": "larsonemma@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 12.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:56",
+    "estimated_delivery": "2026-06-16T21:46:56",
+    "tracking_number": "NM536383774"
+  },
+  {
+    "order_id": "ord_000033",
+    "customer_id": "cust_0033",
+    "customer_name": "Steve Sanchez",
+    "customer_email": "harveyrobert@example.net",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 369.94,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:02",
+    "estimated_delivery": "2026-06-18T21:49:02",
+    "tracking_number": "NM406284028"
+  },
+  {
+    "order_id": "ord_000034",
+    "customer_id": "cust_0034",
+    "customer_name": "Taylor Harris",
+    "customer_email": "john62@example.net",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 434.92,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:25",
+    "estimated_delivery": "2026-06-15T21:50:25",
+    "tracking_number": "NM903132646"
+  },
+  {
+    "order_id": "ord_000035",
+    "customer_id": "cust_0035",
+    "customer_name": "Eugene Walton",
+    "customer_email": "smithchristine@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 239.97,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:51:06",
+    "estimated_delivery": "2026-06-18T21:51:06",
+    "tracking_number": "NM639931481"
+  },
+  {
+    "order_id": "ord_000036",
+    "customer_id": "cust_0036",
+    "customer_name": "Daniel Baker",
+    "customer_email": "nicole35@example.com",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 252.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:27",
+    "estimated_delivery": "2026-06-15T21:46:27",
+    "tracking_number": "NM738914080"
+  },
+  {
+    "order_id": "ord_000037",
+    "customer_id": "cust_0037",
+    "customer_name": "Joshua Turner",
+    "customer_email": "contrerasangela@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 104.98,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:56",
+    "estimated_delivery": "2026-06-19T21:46:56",
+    "tracking_number": "NM738360085"
+  },
+  {
+    "order_id": "ord_000038",
+    "customer_id": "cust_0038",
+    "customer_name": "Brandy Wilson",
+    "customer_email": "newtoneric@example.com",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 269.97,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:29",
+    "estimated_delivery": "2026-06-19T21:46:29",
+    "tracking_number": "NM706907788"
+  },
+  {
+    "order_id": "ord_000039",
+    "customer_id": "cust_0039",
+    "customer_name": "Grant Watts",
+    "customer_email": "william40@example.org",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      }
+    ],
+    "total_price": 284.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:45",
+    "estimated_delivery": "2026-06-17T21:50:45",
+    "tracking_number": "NM524971817"
+  },
+  {
+    "order_id": "ord_000040",
+    "customer_id": "cust_0040",
+    "customer_name": "Donald Smith",
+    "customer_email": "danagreen@example.net",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 162.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:00",
+    "estimated_delivery": "2026-06-19T21:51:00",
+    "tracking_number": "NM207354053"
+  },
+  {
+    "order_id": "ord_000041",
+    "customer_id": "cust_0041",
+    "customer_name": "Jessica Smith",
+    "customer_email": "landryhannah@example.org",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      }
+    ],
+    "total_price": 549.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:49:22",
+    "estimated_delivery": "2026-06-15T21:49:22",
+    "tracking_number": "NM362298393"
+  },
+  {
+    "order_id": "ord_000042",
+    "customer_id": "cust_0042",
+    "customer_name": "Jacob Tran",
+    "customer_email": "tanderson@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      }
+    ],
+    "total_price": 904.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:50:15",
+    "estimated_delivery": "2026-06-19T21:50:15",
+    "tracking_number": "NM108399996"
+  },
+  {
+    "order_id": "ord_000043",
+    "customer_id": "cust_0043",
+    "customer_name": "Christine Wright",
+    "customer_email": "gomezanita@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 132.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:45:56",
+    "estimated_delivery": "2026-06-19T21:45:56",
+    "tracking_number": "NM266910922"
+  },
+  {
+    "order_id": "ord_000044",
+    "customer_id": "cust_0044",
+    "customer_name": "Tammy Young",
+    "customer_email": "theresacochran@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 134.94,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:53",
+    "estimated_delivery": "2026-06-17T21:50:53",
+    "tracking_number": "NM642678844"
+  },
+  {
+    "order_id": "ord_000045",
+    "customer_id": "cust_0045",
+    "customer_name": "Tim Patton",
+    "customer_email": "vpham@example.org",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 254.96,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:45:48",
+    "estimated_delivery": "2026-06-15T21:45:48",
+    "tracking_number": "NM458153605"
+  },
+  {
+    "order_id": "ord_000046",
+    "customer_id": "cust_0046",
+    "customer_name": "Michael Reyes",
+    "customer_email": "garrisonjeffrey@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 254.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:52",
+    "estimated_delivery": "2026-06-19T21:47:52",
+    "tracking_number": "NM110382761"
+  },
+  {
+    "order_id": "ord_000047",
+    "customer_id": "cust_0047",
+    "customer_name": "Robert Perez",
+    "customer_email": "kellerraymond@example.com",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      }
+    ],
+    "total_price": 44.99,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:35",
+    "estimated_delivery": "2026-06-19T21:48:35",
+    "tracking_number": "NM138684919"
+  },
+  {
+    "order_id": "ord_000048",
+    "customer_id": "cust_0048",
+    "customer_name": "Diana May",
+    "customer_email": "ifrazier@example.com",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      }
+    ],
+    "total_price": 249.97,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:11",
+    "estimated_delivery": "2026-06-17T21:46:11",
+    "tracking_number": "NM954829815"
+  },
+  {
+    "order_id": "ord_000049",
+    "customer_id": "cust_0049",
+    "customer_name": "Wesley White",
+    "customer_email": "benjamin96@example.com",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 85.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:45:50",
+    "estimated_delivery": "2026-06-19T21:45:50",
+    "tracking_number": "NM536344399"
+  },
+  {
+    "order_id": "ord_000050",
+    "customer_id": "cust_0050",
+    "customer_name": "William Wilson",
+    "customer_email": "jonathanfletcher@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      }
+    ],
+    "total_price": 59.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:16",
+    "estimated_delivery": "2026-06-15T21:48:16",
+    "tracking_number": "NM292587044"
+  },
+  {
+    "order_id": "ord_000051",
+    "customer_id": "cust_0051",
+    "customer_name": "Kimberly Ball",
+    "customer_email": "michaeljones@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 330.9,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:02",
+    "estimated_delivery": "2026-06-15T21:50:02",
+    "tracking_number": "NM605399561"
+  },
+  {
+    "order_id": "ord_000052",
+    "customer_id": "cust_0052",
+    "customer_name": "Mary Martinez",
+    "customer_email": "william65@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 94.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:25",
+    "estimated_delivery": "2026-06-16T21:48:25",
+    "tracking_number": "NM125409494"
+  },
+  {
+    "order_id": "ord_000053",
+    "customer_id": "cust_0053",
+    "customer_name": "Cameron Fisher",
+    "customer_email": "lbyrd@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      }
+    ],
+    "total_price": 725.91,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:32",
+    "estimated_delivery": "2026-06-19T21:51:32",
+    "tracking_number": "NM455569462"
+  },
+  {
+    "order_id": "ord_000054",
+    "customer_id": "cust_0054",
+    "customer_name": "Joshua Smith",
+    "customer_email": "jason99@example.net",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 34.99,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:27",
+    "estimated_delivery": "2026-06-19T21:50:27",
+    "tracking_number": "NM385042337"
+  },
+  {
+    "order_id": "ord_000055",
+    "customer_id": "cust_0055",
+    "customer_name": "Jeremy Lewis",
+    "customer_email": "yleon@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 29.98,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:20",
+    "estimated_delivery": "2026-06-17T21:48:20",
+    "tracking_number": "NM882269302"
+  },
+  {
+    "order_id": "ord_000056",
+    "customer_id": "cust_0056",
+    "customer_name": "Diane Beck",
+    "customer_email": "clarence34@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 120.93,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:02",
+    "estimated_delivery": "2026-06-18T21:47:02",
+    "tracking_number": "NM101815992"
+  },
+  {
+    "order_id": "ord_000057",
+    "customer_id": "cust_0057",
+    "customer_name": "Angel Riggs",
+    "customer_email": "gibsonolivia@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      }
+    ],
+    "total_price": 118.95,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:47:17",
+    "estimated_delivery": "2026-06-17T21:47:17",
+    "tracking_number": "NM769108025"
+  },
+  {
+    "order_id": "ord_000058",
+    "customer_id": "cust_0058",
+    "customer_name": "Janet Ross",
+    "customer_email": "dianasmith@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 89.98,
+    "status": "returned",
+    "order_date": "2026-06-12T21:47:15",
+    "estimated_delivery": "2026-06-19T21:47:15",
+    "tracking_number": "NM432091877"
+  },
+  {
+    "order_id": "ord_000059",
+    "customer_id": "cust_0059",
+    "customer_name": "Robert Dominguez",
+    "customer_email": "pwilliams@example.org",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 399.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:13",
+    "estimated_delivery": "2026-06-18T21:49:13",
+    "tracking_number": "NM813962536"
+  },
+  {
+    "order_id": "ord_000060",
+    "customer_id": "cust_0060",
+    "customer_name": "John Schmidt",
+    "customer_email": "stephanie79@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      }
+    ],
+    "total_price": 114.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:29",
+    "estimated_delivery": "2026-06-19T21:49:29",
+    "tracking_number": "NM995205588"
+  },
+  {
+    "order_id": "ord_000061",
+    "customer_id": "cust_0061",
+    "customer_name": "Terry Griffin",
+    "customer_email": "juliawells@example.com",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 349.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:54",
+    "estimated_delivery": "2026-06-17T21:49:54",
+    "tracking_number": "NM599277266"
+  },
+  {
+    "order_id": "ord_000062",
+    "customer_id": "cust_0062",
+    "customer_name": "Destiny Strickland",
+    "customer_email": "rsims@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      }
+    ],
+    "total_price": 684.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:42",
+    "estimated_delivery": "2026-06-17T21:47:42",
+    "tracking_number": "NM653462378"
+  },
+  {
+    "order_id": "ord_000063",
+    "customer_id": "cust_0063",
+    "customer_name": "Cynthia Rogers",
+    "customer_email": "taylorjesse@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      }
+    ],
+    "total_price": 162.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:15",
+    "estimated_delivery": "2026-06-16T21:46:15",
+    "tracking_number": "NM126226563"
+  },
+  {
+    "order_id": "ord_000064",
+    "customer_id": "cust_0064",
+    "customer_name": "Amy Russell",
+    "customer_email": "nperry@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 115.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:54",
+    "estimated_delivery": "2026-06-18T21:46:54",
+    "tracking_number": "NM776205431"
+  },
+  {
+    "order_id": "ord_000065",
+    "customer_id": "cust_0065",
+    "customer_name": "Lauren Dominguez",
+    "customer_email": "wwoods@example.com",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 314.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:55",
+    "estimated_delivery": "2026-06-18T21:48:55",
+    "tracking_number": "NM361976301"
+  },
+  {
+    "order_id": "ord_000066",
+    "customer_id": "cust_0066",
+    "customer_name": "Tiffany Barnes",
+    "customer_email": "tracynelson@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 25.98,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:55",
+    "estimated_delivery": "2026-06-16T21:48:55",
+    "tracking_number": "NM288856883"
+  },
+  {
+    "order_id": "ord_000067",
+    "customer_id": "cust_0067",
+    "customer_name": "Michael Yates",
+    "customer_email": "marycalhoun@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 369.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:45:50",
+    "estimated_delivery": "2026-06-19T21:45:50",
+    "tracking_number": "NM700141462"
+  },
+  {
+    "order_id": "ord_000068",
+    "customer_id": "cust_0068",
+    "customer_name": "James Elliott",
+    "customer_email": "millerroy@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 494.91,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:09",
+    "estimated_delivery": "2026-06-18T21:50:09",
+    "tracking_number": "NM270894498"
+  },
+  {
+    "order_id": "ord_000069",
+    "customer_id": "cust_0069",
+    "customer_name": "James Lewis",
+    "customer_email": "matthew64@example.com",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      }
+    ],
+    "total_price": 744.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:09",
+    "estimated_delivery": "2026-06-17T21:47:09",
+    "tracking_number": "NM572309605"
+  },
+  {
+    "order_id": "ord_000070",
+    "customer_id": "cust_0070",
+    "customer_name": "Julie Curry",
+    "customer_email": "cookemichael@example.net",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 349.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:45",
+    "estimated_delivery": "2026-06-16T21:47:45",
+    "tracking_number": "NM261953189"
+  },
+  {
+    "order_id": "ord_000071",
+    "customer_id": "cust_0071",
+    "customer_name": "Marissa Webster",
+    "customer_email": "jamessmith@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 295.94,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:11",
+    "estimated_delivery": "2026-06-19T21:46:11",
+    "tracking_number": "NM600282414"
+  },
+  {
+    "order_id": "ord_000072",
+    "customer_id": "cust_0072",
+    "customer_name": "Michael Elliott",
+    "customer_email": "stevenscott@example.com",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      }
+    ],
+    "total_price": 19.98,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:38",
+    "estimated_delivery": "2026-06-18T21:47:38",
+    "tracking_number": "NM926561919"
+  },
+  {
+    "order_id": "ord_000073",
+    "customer_id": "cust_0073",
+    "customer_name": "Tracey Higgins",
+    "customer_email": "tamirodriguez@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 29.98,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:47:01",
+    "estimated_delivery": "2026-06-18T21:47:01",
+    "tracking_number": "NM106330865"
+  },
+  {
+    "order_id": "ord_000074",
+    "customer_id": "cust_0074",
+    "customer_name": "Susan Brooks",
+    "customer_email": "charlesvaughn@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 1064.92,
+    "status": "returned",
+    "order_date": "2026-06-12T21:48:15",
+    "estimated_delivery": "2026-06-19T21:48:15",
+    "tracking_number": "NM336801619"
+  },
+  {
+    "order_id": "ord_000075",
+    "customer_id": "cust_0075",
+    "customer_name": "Raymond Jefferson",
+    "customer_email": "hoganashlee@example.org",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 99.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:47:40",
+    "estimated_delivery": "2026-06-18T21:47:40",
+    "tracking_number": "NM460916347"
+  },
+  {
+    "order_id": "ord_000076",
+    "customer_id": "cust_0076",
+    "customer_name": "Mary Jones",
+    "customer_email": "alexander67@example.org",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 74.96,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:33",
+    "estimated_delivery": "2026-06-15T21:48:33",
+    "tracking_number": "NM523076025"
+  },
+  {
+    "order_id": "ord_000077",
+    "customer_id": "cust_0077",
+    "customer_name": "Madison Poole",
+    "customer_email": "ryangross@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      }
+    ],
+    "total_price": 38.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:17",
+    "estimated_delivery": "2026-06-18T21:49:17",
+    "tracking_number": "NM245706210"
+  },
+  {
+    "order_id": "ord_000078",
+    "customer_id": "cust_0078",
+    "customer_name": "Tamara Hampton",
+    "customer_email": "ugraham@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 339.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:47:54",
+    "estimated_delivery": "2026-06-16T21:47:54",
+    "tracking_number": "NM588229686"
+  },
+  {
+    "order_id": "ord_000079",
+    "customer_id": "cust_0079",
+    "customer_name": "David Michael",
+    "customer_email": "nicole37@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 385.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:53",
+    "estimated_delivery": "2026-06-15T21:47:53",
+    "tracking_number": "NM904258674"
+  },
+  {
+    "order_id": "ord_000080",
+    "customer_id": "cust_0080",
+    "customer_name": "Gabrielle Snyder",
+    "customer_email": "hunter35@example.com",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      }
+    ],
+    "total_price": 39.99,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:48",
+    "estimated_delivery": "2026-06-15T21:50:48",
+    "tracking_number": "NM938842599"
+  },
+  {
+    "order_id": "ord_000081",
+    "customer_id": "cust_0081",
+    "customer_name": "Kyle Beard",
+    "customer_email": "blackjames@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      }
+    ],
+    "total_price": 9.99,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:30",
+    "estimated_delivery": "2026-06-15T21:48:30",
+    "tracking_number": "NM767154083"
+  },
+  {
+    "order_id": "ord_000082",
+    "customer_id": "cust_0082",
+    "customer_name": "Peter Vaughn DDS",
+    "customer_email": "bwest@example.org",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      }
+    ],
+    "total_price": 119.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:04",
+    "estimated_delivery": "2026-06-19T21:49:04",
+    "tracking_number": "NM334037646"
+  },
+  {
+    "order_id": "ord_000083",
+    "customer_id": "cust_0083",
+    "customer_name": "Michael Torres",
+    "customer_email": "thomas85@example.com",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 219.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:06",
+    "estimated_delivery": "2026-06-15T21:48:06",
+    "tracking_number": "NM935147672"
+  },
+  {
+    "order_id": "ord_000084",
+    "customer_id": "cust_0084",
+    "customer_name": "Michael Nelson",
+    "customer_email": "jerry35@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 243.92,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:17",
+    "estimated_delivery": "2026-06-18T21:50:17",
+    "tracking_number": "NM525904456"
+  },
+  {
+    "order_id": "ord_000085",
+    "customer_id": "cust_0085",
+    "customer_name": "Melissa Lee",
+    "customer_email": "lhill@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 44.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:10",
+    "estimated_delivery": "2026-06-16T21:50:10",
+    "tracking_number": "NM209415691"
+  },
+  {
+    "order_id": "ord_000086",
+    "customer_id": "cust_0086",
+    "customer_name": "Brian Lee",
+    "customer_email": "michaelturner@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 14.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:41",
+    "estimated_delivery": "2026-06-17T21:50:41",
+    "tracking_number": "NM672030854"
+  },
+  {
+    "order_id": "ord_000087",
+    "customer_id": "cust_0087",
+    "customer_name": "Angel Brown",
+    "customer_email": "heidi27@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      }
+    ],
+    "total_price": 338.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:09",
+    "estimated_delivery": "2026-06-18T21:50:09",
+    "tracking_number": "NM213321496"
+  },
+  {
+    "order_id": "ord_000088",
+    "customer_id": "cust_0088",
+    "customer_name": "Julie Alexander",
+    "customer_email": "tammyking@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      }
+    ],
+    "total_price": 274.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:45:42",
+    "estimated_delivery": "2026-06-19T21:45:42",
+    "tracking_number": "NM798423334"
+  },
+  {
+    "order_id": "ord_000089",
+    "customer_id": "cust_0089",
+    "customer_name": "Jennifer Jones",
+    "customer_email": "hernandezlisa@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      }
+    ],
+    "total_price": 274.92,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:46:34",
+    "estimated_delivery": "2026-06-17T21:46:34",
+    "tracking_number": "NM584044963"
+  },
+  {
+    "order_id": "ord_000090",
+    "customer_id": "cust_0090",
+    "customer_name": "Bailey Duran DDS",
+    "customer_email": "kimberlyjames@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 284.92,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:46:19",
+    "estimated_delivery": "2026-06-16T21:46:19",
+    "tracking_number": "NM623502759"
+  },
+  {
+    "order_id": "ord_000091",
+    "customer_id": "cust_0091",
+    "customer_name": "Wanda Torres",
+    "customer_email": "lynchjody@example.org",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 264.93,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:08",
+    "estimated_delivery": "2026-06-19T21:48:08",
+    "tracking_number": "NM110899674"
+  },
+  {
+    "order_id": "ord_000092",
+    "customer_id": "cust_0092",
+    "customer_name": "Matthew Moore",
+    "customer_email": "andreamoore@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 102.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:56",
+    "estimated_delivery": "2026-06-18T21:50:56",
+    "tracking_number": "NM696115913"
+  },
+  {
+    "order_id": "ord_000093",
+    "customer_id": "cust_0093",
+    "customer_name": "Julie Johnson",
+    "customer_email": "jasmine71@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 384.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:26",
+    "estimated_delivery": "2026-06-18T21:49:26",
+    "tracking_number": "NM842800803"
+  },
+  {
+    "order_id": "ord_000094",
+    "customer_id": "cust_0094",
+    "customer_name": "Rachel Weber",
+    "customer_email": "ronaldstephens@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      }
+    ],
+    "total_price": 1039.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:35",
+    "estimated_delivery": "2026-06-17T21:47:35",
+    "tracking_number": "NM556881239"
+  },
+  {
+    "order_id": "ord_000095",
+    "customer_id": "cust_0095",
+    "customer_name": "Samantha Jones",
+    "customer_email": "lauralarson@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      }
+    ],
+    "total_price": 249.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:46:52",
+    "estimated_delivery": "2026-06-16T21:46:52",
+    "tracking_number": "NM229553265"
+  },
+  {
+    "order_id": "ord_000096",
+    "customer_id": "cust_0096",
+    "customer_name": "John Torres",
+    "customer_email": "gbender@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 813.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:48:03",
+    "estimated_delivery": "2026-06-16T21:48:03",
+    "tracking_number": "NM893070706"
+  },
+  {
+    "order_id": "ord_000097",
+    "customer_id": "cust_0097",
+    "customer_name": "Kyle Preston",
+    "customer_email": "cassandra01@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      }
+    ],
+    "total_price": 919.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:48",
+    "estimated_delivery": "2026-06-16T21:49:48",
+    "tracking_number": "NM418092217"
+  },
+  {
+    "order_id": "ord_000098",
+    "customer_id": "cust_0098",
+    "customer_name": "Laura Sampson",
+    "customer_email": "barbara27@example.net",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 539.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:21",
+    "estimated_delivery": "2026-06-17T21:51:21",
+    "tracking_number": "NM148872110"
+  },
+  {
+    "order_id": "ord_000099",
+    "customer_id": "cust_0099",
+    "customer_name": "Donald Shea",
+    "customer_email": "fwalters@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 197.96,
+    "status": "returned",
+    "order_date": "2026-06-12T21:51:09",
+    "estimated_delivery": "2026-06-19T21:51:09",
+    "tracking_number": "NM405307028"
+  },
+  {
+    "order_id": "ord_000100",
+    "customer_id": "cust_0100",
+    "customer_name": "Gary Santiago",
+    "customer_email": "marksteele@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 167.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:36",
+    "estimated_delivery": "2026-06-18T21:49:36",
+    "tracking_number": "NM628008852"
+  },
+  {
+    "order_id": "ord_000101",
+    "customer_id": "cust_0101",
+    "customer_name": "Robin Pierce",
+    "customer_email": "qmiller@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 24.99,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:15",
+    "estimated_delivery": "2026-06-19T21:51:15",
+    "tracking_number": "NM426240903"
+  },
+  {
+    "order_id": "ord_000102",
+    "customer_id": "cust_0102",
+    "customer_name": "Jennifer Robertson",
+    "customer_email": "sandovalamy@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 308.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:35",
+    "estimated_delivery": "2026-06-19T21:46:35",
+    "tracking_number": "NM949051496"
+  },
+  {
+    "order_id": "ord_000103",
+    "customer_id": "cust_0103",
+    "customer_name": "Isaiah Avila",
+    "customer_email": "nwolf@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 559.96,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:03",
+    "estimated_delivery": "2026-06-17T21:46:03",
+    "tracking_number": "NM731924051"
+  },
+  {
+    "order_id": "ord_000104",
+    "customer_id": "cust_0104",
+    "customer_name": "Dwayne Gilmore",
+    "customer_email": "omartinez@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      }
+    ],
+    "total_price": 329.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:17",
+    "estimated_delivery": "2026-06-16T21:50:17",
+    "tracking_number": "NM771641650"
+  },
+  {
+    "order_id": "ord_000105",
+    "customer_id": "cust_0105",
+    "customer_name": "Emily Smith",
+    "customer_email": "hdavis@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      }
+    ],
+    "total_price": 169.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:38",
+    "estimated_delivery": "2026-06-15T21:47:38",
+    "tracking_number": "NM268075622"
+  },
+  {
+    "order_id": "ord_000106",
+    "customer_id": "cust_0106",
+    "customer_name": "Brittany Cantu",
+    "customer_email": "william46@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      }
+    ],
+    "total_price": 174.92,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:36",
+    "estimated_delivery": "2026-06-17T21:46:36",
+    "tracking_number": "NM854827139"
+  },
+  {
+    "order_id": "ord_000107",
+    "customer_id": "cust_0107",
+    "customer_name": "Juan Reyes",
+    "customer_email": "michellehill@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      }
+    ],
+    "total_price": 69.99,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:37",
+    "estimated_delivery": "2026-06-17T21:49:37",
+    "tracking_number": "NM945923902"
+  },
+  {
+    "order_id": "ord_000108",
+    "customer_id": "cust_0108",
+    "customer_name": "Katie Hoover",
+    "customer_email": "jessica99@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 339.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:48:30",
+    "estimated_delivery": "2026-06-16T21:48:30",
+    "tracking_number": "NM385220694"
+  },
+  {
+    "order_id": "ord_000109",
+    "customer_id": "cust_0109",
+    "customer_name": "Jill Washington",
+    "customer_email": "andrea86@example.com",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      }
+    ],
+    "total_price": 79.99,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:46",
+    "estimated_delivery": "2026-06-17T21:49:46",
+    "tracking_number": "NM738923667"
+  },
+  {
+    "order_id": "ord_000110",
+    "customer_id": "cust_0110",
+    "customer_name": "Veronica Allen",
+    "customer_email": "xhall@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      }
+    ],
+    "total_price": 224.93,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:20",
+    "estimated_delivery": "2026-06-18T21:48:20",
+    "tracking_number": "NM392322121"
+  },
+  {
+    "order_id": "ord_000111",
+    "customer_id": "cust_0111",
+    "customer_name": "John Mcintyre",
+    "customer_email": "qhughes@example.net",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      }
+    ],
+    "total_price": 434.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:45:58",
+    "estimated_delivery": "2026-06-17T21:45:58",
+    "tracking_number": "NM127772220"
+  },
+  {
+    "order_id": "ord_000112",
+    "customer_id": "cust_0112",
+    "customer_name": "Andrew Shaw MD",
+    "customer_email": "sawyerscott@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 224.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:53",
+    "estimated_delivery": "2026-06-17T21:46:53",
+    "tracking_number": "NM718740490"
+  },
+  {
+    "order_id": "ord_000113",
+    "customer_id": "cust_0113",
+    "customer_name": "Charles Pitts",
+    "customer_email": "charlesharrington@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 229.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:29",
+    "estimated_delivery": "2026-06-17T21:49:29",
+    "tracking_number": "NM294872482"
+  },
+  {
+    "order_id": "ord_000114",
+    "customer_id": "cust_0114",
+    "customer_name": "Jennifer Miller",
+    "customer_email": "melissa86@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      }
+    ],
+    "total_price": 325.92,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:29",
+    "estimated_delivery": "2026-06-15T21:48:29",
+    "tracking_number": "NM272684373"
+  },
+  {
+    "order_id": "ord_000115",
+    "customer_id": "cust_0115",
+    "customer_name": "Olivia Brennan",
+    "customer_email": "williamsonjimmy@example.net",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      }
+    ],
+    "total_price": 624.9,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:56",
+    "estimated_delivery": "2026-06-15T21:50:56",
+    "tracking_number": "NM437710224"
+  },
+  {
+    "order_id": "ord_000116",
+    "customer_id": "cust_0116",
+    "customer_name": "Nicole Hamilton MD",
+    "customer_email": "wallaceheather@example.org",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 485.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:48:03",
+    "estimated_delivery": "2026-06-18T21:48:03",
+    "tracking_number": "NM543721204"
+  },
+  {
+    "order_id": "ord_000117",
+    "customer_id": "cust_0117",
+    "customer_name": "Anthony Howard",
+    "customer_email": "hthomas@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 529.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:45:59",
+    "estimated_delivery": "2026-06-18T21:45:59",
+    "tracking_number": "NM916033628"
+  },
+  {
+    "order_id": "ord_000118",
+    "customer_id": "cust_0118",
+    "customer_name": "Catherine Thompson",
+    "customer_email": "pharvey@example.com",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      }
+    ],
+    "total_price": 154.95,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:25",
+    "estimated_delivery": "2026-06-18T21:50:25",
+    "tracking_number": "NM849740261"
+  },
+  {
+    "order_id": "ord_000119",
+    "customer_id": "cust_0119",
+    "customer_name": "Joel King",
+    "customer_email": "elizabeth74@example.net",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 239.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:34",
+    "estimated_delivery": "2026-06-19T21:50:34",
+    "tracking_number": "NM958256589"
+  },
+  {
+    "order_id": "ord_000120",
+    "customer_id": "cust_0120",
+    "customer_name": "Jeremy Reed",
+    "customer_email": "danielle64@example.com",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 344.94,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:15",
+    "estimated_delivery": "2026-06-18T21:50:15",
+    "tracking_number": "NM200082623"
+  },
+  {
+    "order_id": "ord_000121",
+    "customer_id": "cust_0121",
+    "customer_name": "James Webb",
+    "customer_email": "patrickhoward@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 29.99,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:10",
+    "estimated_delivery": "2026-06-16T21:48:10",
+    "tracking_number": "NM635126623"
+  },
+  {
+    "order_id": "ord_000122",
+    "customer_id": "cust_0122",
+    "customer_name": "William Barrett",
+    "customer_email": "alan09@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 299.94,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:51:34",
+    "estimated_delivery": "2026-06-16T21:51:34",
+    "tracking_number": "NM511872350"
+  },
+  {
+    "order_id": "ord_000123",
+    "customer_id": "cust_0123",
+    "customer_name": "Stephanie Parsons",
+    "customer_email": "catherinegomez@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 205.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:50",
+    "estimated_delivery": "2026-06-19T21:49:50",
+    "tracking_number": "NM386874458"
+  },
+  {
+    "order_id": "ord_000124",
+    "customer_id": "cust_0124",
+    "customer_name": "Megan Le",
+    "customer_email": "courtneyberger@example.net",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 274.93,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:13",
+    "estimated_delivery": "2026-06-16T21:47:13",
+    "tracking_number": "NM579476614"
+  },
+  {
+    "order_id": "ord_000125",
+    "customer_id": "cust_0125",
+    "customer_name": "Jeremiah Riley",
+    "customer_email": "christopherphillips@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      }
+    ],
+    "total_price": 1049.92,
+    "status": "returned",
+    "order_date": "2026-06-12T21:45:56",
+    "estimated_delivery": "2026-06-16T21:45:56",
+    "tracking_number": "NM713963047"
+  },
+  {
+    "order_id": "ord_000126",
+    "customer_id": "cust_0126",
+    "customer_name": "Carlos Ryan",
+    "customer_email": "alyssa42@example.com",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      }
+    ],
+    "total_price": 209.96,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:08",
+    "estimated_delivery": "2026-06-18T21:49:08",
+    "tracking_number": "NM857232668"
+  },
+  {
+    "order_id": "ord_000127",
+    "customer_id": "cust_0127",
+    "customer_name": "Elizabeth Harrell",
+    "customer_email": "mcdonaldcharles@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      }
+    ],
+    "total_price": 1089.91,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:42",
+    "estimated_delivery": "2026-06-17T21:49:42",
+    "tracking_number": "NM207765664"
+  },
+  {
+    "order_id": "ord_000128",
+    "customer_id": "cust_0128",
+    "customer_name": "Veronica Coffey",
+    "customer_email": "christopher60@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      }
+    ],
+    "total_price": 499.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:51:22",
+    "estimated_delivery": "2026-06-15T21:51:22",
+    "tracking_number": "NM875718152"
+  },
+  {
+    "order_id": "ord_000129",
+    "customer_id": "cust_0129",
+    "customer_name": "Jacob Curry",
+    "customer_email": "brenda51@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 210.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:10",
+    "estimated_delivery": "2026-06-18T21:50:10",
+    "tracking_number": "NM797756796"
+  },
+  {
+    "order_id": "ord_000130",
+    "customer_id": "cust_0130",
+    "customer_name": "Manuel Hahn",
+    "customer_email": "rose31@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 599.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:35",
+    "estimated_delivery": "2026-06-18T21:47:35",
+    "tracking_number": "NM680911523"
+  },
+  {
+    "order_id": "ord_000131",
+    "customer_id": "cust_0131",
+    "customer_name": "Elizabeth Ortiz",
+    "customer_email": "brandonjohnson@example.com",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 29.97,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:33",
+    "estimated_delivery": "2026-06-17T21:49:33",
+    "tracking_number": "NM344261532"
+  },
+  {
+    "order_id": "ord_000132",
+    "customer_id": "cust_0132",
+    "customer_name": "Stephen Taylor",
+    "customer_email": "vwatson@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 203.93,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:46:35",
+    "estimated_delivery": "2026-06-15T21:46:35",
+    "tracking_number": "NM149382425"
+  },
+  {
+    "order_id": "ord_000133",
+    "customer_id": "cust_0133",
+    "customer_name": "Patrick Moore",
+    "customer_email": "fpena@example.net",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      }
+    ],
+    "total_price": 69.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:12",
+    "estimated_delivery": "2026-06-17T21:50:12",
+    "tracking_number": "NM562446417"
+  },
+  {
+    "order_id": "ord_000134",
+    "customer_id": "cust_0134",
+    "customer_name": "Diana Vaughn",
+    "customer_email": "scottsampson@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 544.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:04",
+    "estimated_delivery": "2026-06-16T21:49:04",
+    "tracking_number": "NM282518553"
+  },
+  {
+    "order_id": "ord_000135",
+    "customer_id": "cust_0135",
+    "customer_name": "Mrs. Stephanie Newman",
+    "customer_email": "sandersjames@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 29.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:46:26",
+    "estimated_delivery": "2026-06-19T21:46:26",
+    "tracking_number": "NM833510170"
+  },
+  {
+    "order_id": "ord_000136",
+    "customer_id": "cust_0136",
+    "customer_name": "Daniel Fowler",
+    "customer_email": "williamsmatthew@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 234.93,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:28",
+    "estimated_delivery": "2026-06-15T21:49:28",
+    "tracking_number": "NM963968184"
+  },
+  {
+    "order_id": "ord_000137",
+    "customer_id": "cust_0137",
+    "customer_name": "Ronald Spencer",
+    "customer_email": "lisahall@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 294.94,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:25",
+    "estimated_delivery": "2026-06-19T21:50:25",
+    "tracking_number": "NM421214426"
+  },
+  {
+    "order_id": "ord_000138",
+    "customer_id": "cust_0138",
+    "customer_name": "Scott Thomas",
+    "customer_email": "amberlindsey@example.org",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 109.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:50:41",
+    "estimated_delivery": "2026-06-16T21:50:41",
+    "tracking_number": "NM509486794"
+  },
+  {
+    "order_id": "ord_000139",
+    "customer_id": "cust_0139",
+    "customer_name": "Bonnie Howard",
+    "customer_email": "briannasmith@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 359.93,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:14",
+    "estimated_delivery": "2026-06-18T21:51:14",
+    "tracking_number": "NM394721069"
+  },
+  {
+    "order_id": "ord_000140",
+    "customer_id": "cust_0140",
+    "customer_name": "Jason Wilson",
+    "customer_email": "alvarezkimberly@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 44.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:46:02",
+    "estimated_delivery": "2026-06-18T21:46:02",
+    "tracking_number": "NM994253959"
+  },
+  {
+    "order_id": "ord_000141",
+    "customer_id": "cust_0141",
+    "customer_name": "Jonathan Dougherty",
+    "customer_email": "acostaregina@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 59.95,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:39",
+    "estimated_delivery": "2026-06-16T21:50:39",
+    "tracking_number": "NM766676815"
+  },
+  {
+    "order_id": "ord_000142",
+    "customer_id": "cust_0142",
+    "customer_name": "Mason Johnson",
+    "customer_email": "bboone@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 279.96,
+    "status": "returned",
+    "order_date": "2026-06-12T21:50:02",
+    "estimated_delivery": "2026-06-15T21:50:02",
+    "tracking_number": "NM431714152"
+  },
+  {
+    "order_id": "ord_000143",
+    "customer_id": "cust_0143",
+    "customer_name": "Theodore Jones Jr.",
+    "customer_email": "cameronhill@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 29.98,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:46:31",
+    "estimated_delivery": "2026-06-16T21:46:31",
+    "tracking_number": "NM196779973"
+  },
+  {
+    "order_id": "ord_000144",
+    "customer_id": "cust_0144",
+    "customer_name": "Erika Vang",
+    "customer_email": "shawn96@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      }
+    ],
+    "total_price": 189.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:50:35",
+    "estimated_delivery": "2026-06-17T21:50:35",
+    "tracking_number": "NM669998399"
+  },
+  {
+    "order_id": "ord_000145",
+    "customer_id": "cust_0145",
+    "customer_name": "Matthew Rich",
+    "customer_email": "russellbeasley@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      }
+    ],
+    "total_price": 199.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:35",
+    "estimated_delivery": "2026-06-15T21:51:35",
+    "tracking_number": "NM602866993"
+  },
+  {
+    "order_id": "ord_000146",
+    "customer_id": "cust_0146",
+    "customer_name": "Jennifer Blair",
+    "customer_email": "ronald45@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 164.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:29",
+    "estimated_delivery": "2026-06-18T21:48:29",
+    "tracking_number": "NM963919401"
+  },
+  {
+    "order_id": "ord_000147",
+    "customer_id": "cust_0147",
+    "customer_name": "Andrea Decker",
+    "customer_email": "reynoldsjulie@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total_price": 435.95,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:51:27",
+    "estimated_delivery": "2026-06-18T21:51:27",
+    "tracking_number": "NM495765839"
+  },
+  {
+    "order_id": "ord_000148",
+    "customer_id": "cust_0148",
+    "customer_name": "Laurie Hoffman",
+    "customer_email": "elizabeth65@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 3,
+        "subtotal": 239.96999999999997
+      }
+    ],
+    "total_price": 438.9,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:42",
+    "estimated_delivery": "2026-06-19T21:46:42",
+    "tracking_number": "NM452194058"
+  },
+  {
+    "order_id": "ord_000149",
+    "customer_id": "cust_0149",
+    "customer_name": "Michelle Schmitt",
+    "customer_email": "michael98@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 209.97,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:12",
+    "estimated_delivery": "2026-06-17T21:49:12",
+    "tracking_number": "NM797115550"
+  },
+  {
+    "order_id": "ord_000150",
+    "customer_id": "cust_0150",
+    "customer_name": "Courtney Rodriguez",
+    "customer_email": "danny49@example.org",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 24.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:55",
+    "estimated_delivery": "2026-06-15T21:46:55",
+    "tracking_number": "NM426808977"
+  },
+  {
+    "order_id": "ord_000151",
+    "customer_id": "cust_0151",
+    "customer_name": "Vanessa Cardenas",
+    "customer_email": "lynchdiane@example.net",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      }
+    ],
+    "total_price": 12.99,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:15",
+    "estimated_delivery": "2026-06-19T21:49:15",
+    "tracking_number": "NM245668163"
+  },
+  {
+    "order_id": "ord_000152",
+    "customer_id": "cust_0152",
+    "customer_name": "Donald Farmer",
+    "customer_email": "michael22@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 799.89,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:52",
+    "estimated_delivery": "2026-06-16T21:47:52",
+    "tracking_number": "NM545478870"
+  },
+  {
+    "order_id": "ord_000153",
+    "customer_id": "cust_0153",
+    "customer_name": "Charles Schultz",
+    "customer_email": "davisalyssa@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      }
+    ],
+    "total_price": 174.93,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:51:12",
+    "estimated_delivery": "2026-06-18T21:51:12",
+    "tracking_number": "NM353524015"
+  },
+  {
+    "order_id": "ord_000154",
+    "customer_id": "cust_0154",
+    "customer_name": "Christopher Collins",
+    "customer_email": "kimberly99@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 139.98,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:49:10",
+    "estimated_delivery": "2026-06-19T21:49:10",
+    "tracking_number": "NM792377512"
+  },
+  {
+    "order_id": "ord_000155",
+    "customer_id": "cust_0155",
+    "customer_name": "Paul Williams",
+    "customer_email": "nelsonebony@example.com",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      }
+    ],
+    "total_price": 179.98,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:02",
+    "estimated_delivery": "2026-06-16T21:46:02",
+    "tracking_number": "NM231167999"
+  },
+  {
+    "order_id": "ord_000156",
+    "customer_id": "cust_0156",
+    "customer_name": "Donald Fischer",
+    "customer_email": "reeddaniel@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      }
+    ],
+    "total_price": 69.99,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:46",
+    "estimated_delivery": "2026-06-19T21:50:46",
+    "tracking_number": "NM122932394"
+  },
+  {
+    "order_id": "ord_000157",
+    "customer_id": "cust_0157",
+    "customer_name": "Kelsey Parker",
+    "customer_email": "randallgreene@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 1,
+        "subtotal": 9.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      }
+    ],
+    "total_price": 63.95,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:51:23",
+    "estimated_delivery": "2026-06-16T21:51:23",
+    "tracking_number": "NM729624046"
+  },
+  {
+    "order_id": "ord_000158",
+    "customer_id": "cust_0158",
+    "customer_name": "Daniel Taylor",
+    "customer_email": "keith10@example.com",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 54.98,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:20",
+    "estimated_delivery": "2026-06-17T21:47:20",
+    "tracking_number": "NM255357534"
+  },
+  {
+    "order_id": "ord_000159",
+    "customer_id": "cust_0159",
+    "customer_name": "James Padilla",
+    "customer_email": "charles06@example.org",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 1,
+        "subtotal": 69.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 119.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:16",
+    "estimated_delivery": "2026-06-17T21:49:16",
+    "tracking_number": "NM948239575"
+  },
+  {
+    "order_id": "ord_000160",
+    "customer_id": "cust_0160",
+    "customer_name": "Shannon Johnston",
+    "customer_email": "amckinney@example.com",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      }
+    ],
+    "total_price": 189.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:31",
+    "estimated_delivery": "2026-06-18T21:49:31",
+    "tracking_number": "NM664880035"
+  },
+  {
+    "order_id": "ord_000161",
+    "customer_id": "cust_0161",
+    "customer_name": "Vincent Jackson",
+    "customer_email": "xcollier@example.org",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 59.98,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:34",
+    "estimated_delivery": "2026-06-17T21:46:34",
+    "tracking_number": "NM651085057"
+  },
+  {
+    "order_id": "ord_000162",
+    "customer_id": "cust_0162",
+    "customer_name": "Dana Chapman",
+    "customer_email": "fosterkyle@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 89.97,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:19",
+    "estimated_delivery": "2026-06-16T21:49:19",
+    "tracking_number": "NM760465943"
+  },
+  {
+    "order_id": "ord_000163",
+    "customer_id": "cust_0163",
+    "customer_name": "Christopher Dixon",
+    "customer_email": "schmidtjames@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 229.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:29",
+    "estimated_delivery": "2026-06-18T21:47:29",
+    "tracking_number": "NM836691577"
+  },
+  {
+    "order_id": "ord_000164",
+    "customer_id": "cust_0164",
+    "customer_name": "Sabrina Briggs",
+    "customer_email": "curtisscott@example.org",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 247.93,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:48:35",
+    "estimated_delivery": "2026-06-16T21:48:35",
+    "tracking_number": "NM395296179"
+  },
+  {
+    "order_id": "ord_000165",
+    "customer_id": "cust_0165",
+    "customer_name": "Peter Jones",
+    "customer_email": "kmarshall@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 2,
+        "subtotal": 499.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 859.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:44",
+    "estimated_delivery": "2026-06-19T21:50:44",
+    "tracking_number": "NM561923010"
+  },
+  {
+    "order_id": "ord_000166",
+    "customer_id": "cust_0166",
+    "customer_name": "Sonia Day",
+    "customer_email": "michelle52@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 209.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:25",
+    "estimated_delivery": "2026-06-19T21:49:25",
+    "tracking_number": "NM873995963"
+  },
+  {
+    "order_id": "ord_000167",
+    "customer_id": "cust_0167",
+    "customer_name": "Mark Hogan",
+    "customer_email": "bellcharles@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 539.92,
+    "status": "returned",
+    "order_date": "2026-06-12T21:46:10",
+    "estimated_delivery": "2026-06-15T21:46:10",
+    "tracking_number": "NM435596237"
+  },
+  {
+    "order_id": "ord_000168",
+    "customer_id": "cust_0168",
+    "customer_name": "Jacob Mitchell",
+    "customer_email": "gilbertwilliam@example.com",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      }
+    ],
+    "total_price": 319.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:49:27",
+    "estimated_delivery": "2026-06-15T21:49:27",
+    "tracking_number": "NM197951867"
+  },
+  {
+    "order_id": "ord_000169",
+    "customer_id": "cust_0169",
+    "customer_name": "Rebecca Huang",
+    "customer_email": "kstout@example.net",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      }
+    ],
+    "total_price": 89.99,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:50:33",
+    "estimated_delivery": "2026-06-17T21:50:33",
+    "tracking_number": "NM971630639"
+  },
+  {
+    "order_id": "ord_000170",
+    "customer_id": "cust_0170",
+    "customer_name": "John Hernandez",
+    "customer_email": "hayeslisa@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 44.97,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:47:12",
+    "estimated_delivery": "2026-06-19T21:47:12",
+    "tracking_number": "NM453954673"
+  },
+  {
+    "order_id": "ord_000171",
+    "customer_id": "cust_0171",
+    "customer_name": "Carrie Wright",
+    "customer_email": "hritter@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 579.9,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:19",
+    "estimated_delivery": "2026-06-17T21:46:19",
+    "tracking_number": "NM211240259"
+  },
+  {
+    "order_id": "ord_000172",
+    "customer_id": "cust_0172",
+    "customer_name": "Jake Campbell",
+    "customer_email": "rschroeder@example.net",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 1,
+        "subtotal": 29.99
+      }
+    ],
+    "total_price": 104.96,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:50:48",
+    "estimated_delivery": "2026-06-15T21:50:48",
+    "tracking_number": "NM475932035"
+  },
+  {
+    "order_id": "ord_000173",
+    "customer_id": "cust_0173",
+    "customer_name": "Maria Jones",
+    "customer_email": "grantpaul@example.com",
+    "items": [
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 310.94,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:02",
+    "estimated_delivery": "2026-06-19T21:46:02",
+    "tracking_number": "NM758819288"
+  },
+  {
+    "order_id": "ord_000174",
+    "customer_id": "cust_0174",
+    "customer_name": "Lindsey Hernandez",
+    "customer_email": "aguilardonald@example.com",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 44.97,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:51:12",
+    "estimated_delivery": "2026-06-17T21:51:12",
+    "tracking_number": "NM131088245"
+  },
+  {
+    "order_id": "ord_000175",
+    "customer_id": "cust_0175",
+    "customer_name": "Melissa Myers",
+    "customer_email": "collinsnicholas@example.com",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "subtotal": 79.99
+      }
+    ],
+    "total_price": 249.95,
+    "status": "returned",
+    "order_date": "2026-06-12T21:48:14",
+    "estimated_delivery": "2026-06-16T21:48:14",
+    "tracking_number": "NM708082645"
+  },
+  {
+    "order_id": "ord_000176",
+    "customer_id": "cust_0176",
+    "customer_name": "Sandra Rodgers",
+    "customer_email": "lucasrodney@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      }
+    ],
+    "total_price": 74.97,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:41",
+    "estimated_delivery": "2026-06-15T21:46:41",
+    "tracking_number": "NM198524063"
+  },
+  {
+    "order_id": "ord_000177",
+    "customer_id": "cust_0177",
+    "customer_name": "Christopher Lewis",
+    "customer_email": "ilee@example.org",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 2,
+        "subtotal": 59.98
+      }
+    ],
+    "total_price": 239.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:45:45",
+    "estimated_delivery": "2026-06-16T21:45:45",
+    "tracking_number": "NM497341481"
+  },
+  {
+    "order_id": "ord_000178",
+    "customer_id": "cust_0178",
+    "customer_name": "Richard Romero",
+    "customer_email": "stanleynancy@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      }
+    ],
+    "total_price": 82.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:46:15",
+    "estimated_delivery": "2026-06-19T21:46:15",
+    "tracking_number": "NM153432064"
+  },
+  {
+    "order_id": "ord_000179",
+    "customer_id": "cust_0179",
+    "customer_name": "Brittany White",
+    "customer_email": "jenniferwilliams@example.com",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      }
+    ],
+    "total_price": 299.93,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:46:43",
+    "estimated_delivery": "2026-06-18T21:46:43",
+    "tracking_number": "NM393310667"
+  },
+  {
+    "order_id": "ord_000180",
+    "customer_id": "cust_0180",
+    "customer_name": "Tracy Bishop",
+    "customer_email": "pyoung@example.com",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      }
+    ],
+    "total_price": 79.98,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:51:22",
+    "estimated_delivery": "2026-06-15T21:51:22",
+    "tracking_number": "NM404133583"
+  },
+  {
+    "order_id": "ord_000181",
+    "customer_id": "cust_0181",
+    "customer_name": "Cheyenne Gregory",
+    "customer_email": "smurray@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 2,
+        "subtotal": 19.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      }
+    ],
+    "total_price": 819.93,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:49:36",
+    "estimated_delivery": "2026-06-15T21:49:36",
+    "tracking_number": "NM319497661"
+  },
+  {
+    "order_id": "ord_000182",
+    "customer_id": "cust_0182",
+    "customer_name": "Tracy Montoya",
+    "customer_email": "moniquewilliams@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      }
+    ],
+    "total_price": 119.96,
+    "status": "returned",
+    "order_date": "2026-06-12T21:49:53",
+    "estimated_delivery": "2026-06-15T21:49:53",
+    "tracking_number": "NM108299923"
+  },
+  {
+    "order_id": "ord_000183",
+    "customer_id": "cust_0183",
+    "customer_name": "Ashley Singleton",
+    "customer_email": "mitchellkathryn@example.com",
+    "items": [
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 1,
+        "subtotal": 24.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      }
+    ],
+    "total_price": 1089.92,
+    "status": "returned",
+    "order_date": "2026-06-12T21:48:46",
+    "estimated_delivery": "2026-06-17T21:48:46",
+    "tracking_number": "NM177390472"
+  },
+  {
+    "order_id": "ord_000184",
+    "customer_id": "cust_0184",
+    "customer_name": "Brittany Kim",
+    "customer_email": "lisawilkerson@example.org",
+    "items": [
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 1,
+        "subtotal": 89.99
+      }
+    ],
+    "total_price": 89.99,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:49:26",
+    "estimated_delivery": "2026-06-18T21:49:26",
+    "tracking_number": "NM183604337"
+  },
+  {
+    "order_id": "ord_000185",
+    "customer_id": "cust_0185",
+    "customer_name": "Jonathan Young",
+    "customer_email": "brooksanthony@example.org",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 2,
+        "subtotal": 29.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 2,
+        "subtotal": 179.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 370.91,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:49:08",
+    "estimated_delivery": "2026-06-15T21:49:08",
+    "tracking_number": "NM448717183"
+  },
+  {
+    "order_id": "ord_000186",
+    "customer_id": "cust_0186",
+    "customer_name": "Charles Johnson",
+    "customer_email": "ihorton@example.net",
+    "items": [
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 2,
+        "subtotal": 89.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 1,
+        "subtotal": 12.99
+      },
+      {
+        "name": "Keyboard",
+        "price": 89.99,
+        "quantity": 3,
+        "subtotal": 269.96999999999997
+      }
+    ],
+    "total_price": 398.92,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:51:08",
+    "estimated_delivery": "2026-06-18T21:51:08",
+    "tracking_number": "NM662600500"
+  },
+  {
+    "order_id": "ord_000187",
+    "customer_id": "cust_0187",
+    "customer_name": "Aaron Miller",
+    "customer_email": "jason28@example.net",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 3,
+        "subtotal": 104.97
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 3,
+        "subtotal": 38.97
+      }
+    ],
+    "total_price": 223.92,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:36",
+    "estimated_delivery": "2026-06-15T21:49:36",
+    "tracking_number": "NM669732591"
+  },
+  {
+    "order_id": "ord_000188",
+    "customer_id": "cust_0188",
+    "customer_name": "Ashley Roberts",
+    "customer_email": "david36@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 3,
+        "subtotal": 134.97
+      }
+    ],
+    "total_price": 214.95,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:47",
+    "estimated_delivery": "2026-06-16T21:50:47",
+    "tracking_number": "NM353691745"
+  },
+  {
+    "order_id": "ord_000189",
+    "customer_id": "cust_0189",
+    "customer_name": "Brian Stein",
+    "customer_email": "chenbailey@example.net",
+    "items": [
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 1,
+        "subtotal": 34.99
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 3,
+        "subtotal": 74.97
+      }
+    ],
+    "total_price": 109.96,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:50:54",
+    "estimated_delivery": "2026-06-16T21:50:54",
+    "tracking_number": "NM916274954"
+  },
+  {
+    "order_id": "ord_000190",
+    "customer_id": "cust_0190",
+    "customer_name": "Aaron Gomez",
+    "customer_email": "qlopez@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      }
+    ],
+    "total_price": 229.95,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:46:49",
+    "estimated_delivery": "2026-06-19T21:46:49",
+    "tracking_number": "NM582008349"
+  },
+  {
+    "order_id": "ord_000191",
+    "customer_id": "cust_0191",
+    "customer_name": "Andrea Fox",
+    "customer_email": "myerstheodore@example.net",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 2,
+        "subtotal": 139.98
+      },
+      {
+        "name": "Phone Case",
+        "price": 24.99,
+        "quantity": 2,
+        "subtotal": 49.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 215.94,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:04",
+    "estimated_delivery": "2026-06-18T21:50:04",
+    "tracking_number": "NM777944609"
+  },
+  {
+    "order_id": "ord_000192",
+    "customer_id": "cust_0192",
+    "customer_name": "Mrs. Alexis Kramer",
+    "customer_email": "john19@example.net",
+    "items": [
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 1,
+        "subtotal": 14.99
+      },
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 3,
+        "subtotal": 119.97
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      }
+    ],
+    "total_price": 160.94,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:48:54",
+    "estimated_delivery": "2026-06-18T21:48:54",
+    "tracking_number": "NM585238820"
+  },
+  {
+    "order_id": "ord_000193",
+    "customer_id": "cust_0193",
+    "customer_name": "Harold Morgan",
+    "customer_email": "mariacohen@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      }
+    ],
+    "total_price": 79.98,
+    "status": "delivered",
+    "order_date": "2026-06-12T21:48:26",
+    "estimated_delivery": "2026-06-15T21:48:26",
+    "tracking_number": "NM792205349"
+  },
+  {
+    "order_id": "ord_000194",
+    "customer_id": "cust_0194",
+    "customer_name": "Robin Brown",
+    "customer_email": "mjohnson@example.org",
+    "items": [
+      {
+        "name": "Mouse",
+        "price": 29.99,
+        "quantity": 3,
+        "subtotal": 89.97
+      },
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 1044.89,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:49:41",
+    "estimated_delivery": "2026-06-16T21:49:41",
+    "tracking_number": "NM445236735"
+  },
+  {
+    "order_id": "ord_000195",
+    "customer_id": "cust_0195",
+    "customer_name": "Emily Collins",
+    "customer_email": "ihays@example.com",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      },
+      {
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 2,
+        "subtotal": 159.98
+      },
+      {
+        "name": "USB-C Cable",
+        "price": 12.99,
+        "quantity": 2,
+        "subtotal": 25.98
+      },
+      {
+        "name": "Desk Lamp",
+        "price": 44.99,
+        "quantity": 1,
+        "subtotal": 44.99
+      }
+    ],
+    "total_price": 480.94,
+    "status": "in-transit",
+    "order_date": "2026-06-12T21:47:18",
+    "estimated_delivery": "2026-06-19T21:47:18",
+    "tracking_number": "NM793773681"
+  },
+  {
+    "order_id": "ord_000196",
+    "customer_id": "cust_0196",
+    "customer_name": "Matthew Mitchell",
+    "customer_email": "glennmartin@example.org",
+    "items": [
+      {
+        "name": "Screen Protector",
+        "price": 9.99,
+        "quantity": 3,
+        "subtotal": 29.97
+      }
+    ],
+    "total_price": 29.97,
+    "status": "cancelled",
+    "order_date": "2026-06-12T21:47:45",
+    "estimated_delivery": "2026-06-18T21:47:45",
+    "tracking_number": "NM571825556"
+  },
+  {
+    "order_id": "ord_000197",
+    "customer_id": "cust_0197",
+    "customer_name": "James Gonzales",
+    "customer_email": "lmorgan@example.com",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 2,
+        "subtotal": 79.98
+      },
+      {
+        "name": "Portable Battery",
+        "price": 34.99,
+        "quantity": 2,
+        "subtotal": 69.98
+      }
+    ],
+    "total_price": 149.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:48:44",
+    "estimated_delivery": "2026-06-18T21:48:44",
+    "tracking_number": "NM931575232"
+  },
+  {
+    "order_id": "ord_000198",
+    "customer_id": "cust_0198",
+    "customer_name": "Tim Stone PhD",
+    "customer_email": "mmiller@example.org",
+    "items": [
+      {
+        "name": "Webcam",
+        "price": 69.99,
+        "quantity": 3,
+        "subtotal": 209.96999999999997
+      }
+    ],
+    "total_price": 209.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:51:30",
+    "estimated_delivery": "2026-06-17T21:51:30",
+    "tracking_number": "NM170772317"
+  },
+  {
+    "order_id": "ord_000199",
+    "customer_id": "cust_0199",
+    "customer_name": "Brian Murphy",
+    "customer_email": "kirk96@example.org",
+    "items": [
+      {
+        "name": "Monitor",
+        "price": 249.99,
+        "quantity": 3,
+        "subtotal": 749.97
+      }
+    ],
+    "total_price": 749.97,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:50:15",
+    "estimated_delivery": "2026-06-18T21:50:15",
+    "tracking_number": "NM405100495"
+  },
+  {
+    "order_id": "ord_000200",
+    "customer_id": "cust_0200",
+    "customer_name": "Jeremy Acosta",
+    "customer_email": "christina64@example.net",
+    "items": [
+      {
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "quantity": 1,
+        "subtotal": 39.99
+      },
+      {
+        "name": "HDMI Cable",
+        "price": 14.99,
+        "quantity": 3,
+        "subtotal": 44.97
+      }
+    ],
+    "total_price": 84.96,
+    "status": "delayed",
+    "order_date": "2026-06-12T21:51:29",
+    "estimated_delivery": "2026-06-16T21:51:29",
+    "tracking_number": "NM475617211"
+  }
+]

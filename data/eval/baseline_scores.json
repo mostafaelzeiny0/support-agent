@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "metrics": {
+    "relevance": 0.7889285714285714,
+    "faithfulness": 0.5379728398999634,
+    "context_quality": 0.9917999999999999
+  },
+  "num_questions": 10,
+  "results": [
+    {
+      "question": "What is NovaMart's return window for purchased items?",
+      "ground_truth": "30 days from the date of purchase",
+      "answer": "# NovaMart Return Window\n\nThank you for your question! I'm happy to help.\n\n**NovaMart offers a 30-day return window** for most items. The clock starts from when your order arrives at your door, not from when you placed the order.\n\n## To qualify for a return, your item must be:\n- Unused and in new condition\n- In original packaging with all tags attached\n- Include all accessories and materials that came with it\n- Free from damage caused by misuse\n\n## A few exceptions:\nSome items **cannot be returned**, including personalized or custom items, clearance items, and perishables.\n\n## How to start your return:\n1. Log into your NovaMart account and go to \"My Orders\"\n2. Select the item and click \"Return Request\"\n3. Choose your reason and follow the prompts\n4. Print your prepaid return shipping label\n5",
+      "contexts": [
+        "# NovaMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is NovaMart's return policy?**\nA: Most items purchased from NovaMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your NovaMart account, navigate to \"My ",
+        "# NovaMart Return Policy\n\n## Overview\nWe want you to love every purchase! If you're not completely satisfied, we're here to help.\n\n## Return Window\nYou have **30 days from your purchase date** to initiate a return. We count from when your order arrives at your door, not when you ordered it.\n\n## Return Conditions\nTo qualify for a return, items must be:\n- Unused and in new condition\n- In original packaging and with all tags attached\n- Include any accessories or materials that came with the product",
+        "ccessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your NovaMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom item"
+      ],
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 0.7722772277227723,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "Can I return personalized or customized items at NovaMart?",
+      "ground_truth": "No, personalized items are typically non-returnable",
+      "answer": "# Returns for Personalized or Customized Items\n\nThank you for your question! Unfortunately, **personalized and customized items are not returnable** at NovaMart.\n\nSince these items are made specifically to your specifications, we're unable to resell them or accept returns once they've been created.\n\n## What You Can Do:\n\nIf you have concerns about a personalized item you've ordered, I'd recommend:\n- **Reviewing customization details carefully** before finalizing your order\n- **Contacting our customer service team** before completing your purchase if you have any questions about your customization options\n\n## Standard Items:\n\nIf you ordered standard (non-personalized) items, those are generally returnable within **30 days of purchase** if they're unused, in original condition, and in resalable condition with all packaging and accessories included.\n\nIs there anything else I can help you with regarding your order?",
+      "contexts": [
+        "# NovaMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is NovaMart's return policy?**\nA: Most items purchased from NovaMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your NovaMart account, navigate to \"My ",
+        "ccessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your NovaMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom item",
+        "# NovaMart Refund Policy\n\n## Overview\nAt NovaMart, we stand behind our products. If you're not completely satisfied with your purchase, we offer a straightforward refund process to ensure your peace of mind.\n\n## Full Refunds\nItems in original, good condition are eligible for full refunds. Products must be unused, unwashed, and in resalable condition with all original tags and packaging intact. To initiate a return, contact our customer service team within 30 days of purchase.\n\n## Refund Processi"
+      ],
+      "metrics": {
+        "relevance": 0.8,
+        "faithfulness": 0.41414141414141414,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "How long does it take for a refund to be processed at NovaMart?",
+      "ground_truth": "5-10 business days after the return is received",
+      "answer": "# Refund Processing Timeline at NovaMart\n\nThank you for your question! Here's how long you can expect to wait for your refund:\n\n## Processing Timeline\n\n1. **Inspection & Processing:** Once we receive and inspect your returned item, refunds are typically processed within **7-10 business days**\n\n2. **Credit to Your Account:** After processing, please allow an additional **3-5 business days** for the credit to appear in your account, depending on your financial institution\n\nSo in total, you can expect your refund to appear within approximately **10-15 business days** from when we receive your return.\n\n## Important Notes\n\n- Your refund will be credited to your **original payment method**\n- **Standard shipping** is non-refundable\n- **Expedited shipping** is refundable only if you initiate the return within 14 days of purchase\n\n## Need Help?\n\nIf",
+      "contexts": [
+        ": Log into your NovaMart account, navigate to \"My Orders,\" select the item you wish to return, and click \"Return Item.\" Follow the prompts to provide a reason and print your prepaid shipping label. Once processed, your item will be returned to our warehouse.\n\n**Q3: How long does it take to receive my refund?**\nA: After we receive and inspect your returned item, refunds are typically processed within 7-10 business days. The refund amount will be credited to your original payment method. Please al",
+        "ppropriate refund amount, typically ranging from 25-75% of the original purchase price.\n\n## Shipping Refunds\n- **Standard Shipping:** Non-refundable\n- **Expedited Shipping:** Refundable if the return is initiated within 14 days of purchase\n\n## Questions?\nFor refund inquiries or to initiate a return, contact NovaMart Customer Service at support@novamart.com or 1-800-NOVAMART.",
+        "redited to your original payment method. Please allow an additional 3-5 business days for the credit to appear depending on your financial institution.\n\n**Q4: What is NovaMart's policy on defective or damaged items?**\nA: If you receive a defective or damaged item, contact our customer service team within 14 days with photos as evidence. We'll either send a replacement at no cost or issue a full refund. No return shipping is necessary for defective items\u2014we'll provide a prepaid return label or au"
+      ],
+      "metrics": {
+        "relevance": 0.6666666666666666,
+        "faithfulness": 0.5888888888888889,
+        "context_quality": 0.9590000000000001
+      }
+    },
+    {
+      "question": "What are NovaMart's shipping costs?",
+      "ground_truth": "$5.99 for standard shipping, $12.99 for expedited shipping",
+      "answer": "# NovaMart Shipping Costs\n\nThank you for your question! Here's our current shipping pricing:\n\n## Shipping Options & Costs\n\n**Standard Shipping** \u2013 $5.99\n- Delivery within 5-7 business days\n- *Free on orders $50 or more*\n\n**Expedited Shipping** \u2013 $12.99\n- Guaranteed 2-3 business day delivery\n\n## Free Shipping\n\nOrders totaling **$50 or more** automatically qualify for **free Standard Shipping** at checkout\u2014no code needed!\n\n---\n\n**Note:** Final shipping costs are calculated at checkout based on your delivery destination and selected shipping method.\n\nIs there anything else you'd like to know about our shipping options?",
+      "contexts": [
+        "# NovaMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standard",
+        "e items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does NovaMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, NovaMart ships to over 100 countries wo",
+        "ically at checkout.\n\n## Shipping Costs\n\n- Standard Shipping: $5.99\n- Expedited Shipping: $12.99\n- Free Shipping: Orders $50+\n\n*Note: Shipping costs calculated at checkout based on destination and selected method.*\n\n## Tracking Your Order\n\nEvery shipment includes a tracking number sent via email once your order ships. Monitor your package's journey in real-time through our website or your carrier's tracking portal.\n\n## International Shipping\n\nNovaMart ships to 100+ countries worldwide. Internatio"
+      ],
+      "metrics": {
+        "relevance": 0.8333333333333334,
+        "faithfulness": 0.6,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "Is there free shipping at NovaMart?",
+      "ground_truth": "Yes, free shipping on orders over $50",
+      "answer": "# Free Shipping at NovaMart\n\nGreat question! Yes, we do offer **free shipping** at NovaMart! \n\nHere are the details:\n\n\u2713 **Free Standard Shipping** is available on orders **$50 or more**\n- No promo code needed\u2014the discount applies automatically at checkout\n- Standard Shipping typically delivers within 5-7 business days\n\nIf you need your order faster, we also offer:\n- **Expedited Shipping**: $12.99 (2-3 business day delivery)\n- **Express Shipping**: Available with varying costs based on your needs\n\nAll shipments include a tracking number via email so you can monitor your package in real-time.\n\nIs there anything else I can help you with regarding shipping or your order?",
+      "contexts": [
+        "ically at checkout.\n\n## Shipping Costs\n\n- Standard Shipping: $5.99\n- Expedited Shipping: $12.99\n- Free Shipping: Orders $50+\n\n*Note: Shipping costs calculated at checkout based on destination and selected method.*\n\n## Tracking Your Order\n\nEvery shipment includes a tracking number sent via email once your order ships. Monitor your package's journey in real-time through our website or your carrier's tracking portal.\n\n## International Shipping\n\nNovaMart ships to 100+ countries worldwide. Internatio",
+        "e items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does NovaMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, NovaMart ships to over 100 countries wo",
+        "# NovaMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standard"
+      ],
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 0.5180722891566265,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "What is the maximum refund amount before escalation at NovaMart?",
+      "ground_truth": "$150 is the maximum automatic refund without escalation",
+      "answer": "# Maximum Refund Amount at NovaMart\n\nBased on our refund policy, here's what you need to know about refund amounts:\n\n## Full Refunds\nItems that meet the following conditions are eligible for **full refunds** (100% of the original purchase price):\n- In original, good condition\n- Unused and unwashed\n- All original tags and packaging intact\n- Return initiated **within 30 days of purchase**\n\n## Partial Refunds\nIf an item doesn't meet the full refund conditions, you may be eligible for a **partial refund**, typically ranging from **25-75%** of the original purchase price, depending on the item's condition and other factors.\n\n## Additional Notes\n- **Standard shipping** is non-refundable\n- **Expedited shipping** is refundable only if the return is initiated within 14 days of purchase\n- Some items (clearance",
+      "contexts": [
+        "ppropriate refund amount, typically ranging from 25-75% of the original purchase price.\n\n## Shipping Refunds\n- **Standard Shipping:** Non-refundable\n- **Expedited Shipping:** Refundable if the return is initiated within 14 days of purchase\n\n## Questions?\nFor refund inquiries or to initiate a return, contact NovaMart Customer Service at support@novamart.com or 1-800-NOVAMART.",
+        "# NovaMart Refund Policy\n\n## Overview\nAt NovaMart, we stand behind our products. If you're not completely satisfied with your purchase, we offer a straightforward refund process to ensure your peace of mind.\n\n## Full Refunds\nItems in original, good condition are eligible for full refunds. Products must be unused, unwashed, and in resalable condition with all original tags and packaging intact. To initiate a return, contact our customer service team within 30 days of purchase.\n\n## Refund Processi",
+        "# NovaMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is NovaMart's return policy?**\nA: Most items purchased from NovaMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your NovaMart account, navigate to \"My "
+      ],
+      "metrics": {
+        "relevance": 0.3333333333333333,
+        "faithfulness": 0.5227272727272727,
+        "context_quality": 0.9590000000000001
+      }
+    },
+    {
+      "question": "How does NovaMart handle shipping for international orders?",
+      "ground_truth": "NovaMart offers international shipping to select countries",
+      "answer": "# International Shipping at NovaMart\n\nThank you for your question! I'm happy to help you understand our international shipping process.\n\n## Key Details:\n\n**Coverage & Speed:**\n- We ship to **over 100 countries worldwide**\n- International orders typically take **10-21 business days** to arrive, depending on your destination\n- Our shipping calculator can provide specific timeframes and rates for your location\n\n**Important Responsibilities:**\n- You'll be responsible for any applicable **customs duties and import taxes** that may apply to your order\n- Your delivery address must match your billing information\n\n**Processing Timeline:**\n- Orders process within 1 business day\n- Please note that weekends and holidays are excluded from processing times\n- Remote areas may experience extended delivery times\n\n## Need More Information?\n\nFor a personalized shipping rate and delivery estimate for your specific destination, I recommend using our **shipping calculator** on our website. \n\nIf",
+      "contexts": [
+        "**\nA: Yes, NovaMart ships to over 100 countries worldwide. International shipping typically takes 10-21 business days depending on the destination. Customers are responsible for any applicable customs duties and import taxes. Visit our shipping calculator for specific rates and timeframes.\n\n**Q7: Can I change my shipping address after placing an order?**\nA: If your order hasn't entered our warehouse for packing, you can change the shipping address by contacting customer service immediately. Once",
+        "e items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does NovaMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, NovaMart ships to over 100 countries wo",
+        "Mart ships to 100+ countries worldwide. International delivery typically takes 10-21 business days depending on location. Customers are responsible for any applicable customs duties or import taxes.\n\n## Shipping Details\n\n- Orders process within 1 business day\n- Weekends and holidays excluded from processing times\n- Remote areas may experience extended delivery\n- Delivery addresses must match billing information\n\n## Questions?\n\nContact our customer service team at support@novamart.com or call 1-8"
+      ],
+      "metrics": {
+        "relevance": 0.6666666666666666,
+        "faithfulness": 0.5533980582524272,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "What should I do if my item arrives damaged?",
+      "ground_truth": "You can request a partial or full refund depending on the damage",
+      "answer": "# What to Do If Your Item Arrives Damaged\n\nI'm sorry to hear your item arrived damaged! Here's what you should do:\n\n## Immediate Steps:\n1. **Contact us within 14 days** - Reach out to our customer service team as soon as possible\n2. **Provide photos as evidence** - Take clear photos of the damage to include with your claim\n\n## Your Options:\nWe'll either:\n- **Send a replacement at no cost**, or\n- **Issue a full refund**\n\n## Return Process:\nThe good news is that **no return shipping is necessary for defective items**! We'll either:\n- Provide a prepaid return label, or\n- Arrange pickup for you\n\n## How to Reach Us:\n- **Email:** support@novamart.com\n- **Live Chat:** Available on our website\n\nOnce we process your claim, we'll email you tracking information",
+      "contexts": [
+        "redited to your original payment method. Please allow an additional 3-5 business days for the credit to appear depending on your financial institution.\n\n**Q4: What is NovaMart's policy on defective or damaged items?**\nA: If you receive a defective or damaged item, contact our customer service team within 14 days with photos as evidence. We'll either send a replacement at no cost or issue a full refund. No return shipping is necessary for defective items\u2014we'll provide a prepaid return label or au",
+        "ccessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your NovaMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom item",
+        "ur bank to process the credit.\n\n**Note:** Return shipping is free on most items. However, certain oversized items (furniture, large appliances) may require a shipping fee deducted from your refund.\n\n## Exchanges\nPrefer a different size or color? Exchanges are free! Select \"Exchange\" instead of \"Return\" during checkout, and we'll send your replacement before requesting the original item back.\n\n## Questions?\nContact our friendly support team at support@novamart.com or use our live chat\u2014we're here "
+      ],
+      "metrics": {
+        "relevance": 0.875,
+        "faithfulness": 0.4842105263157895,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "How long does standard delivery take at NovaMart?",
+      "ground_truth": "5-7 business days",
+      "answer": "# Standard Delivery at NovaMart\n\nThank you for your question! With **Standard Shipping** at NovaMart, you can expect your order to arrive within **5-7 business days**.\n\n## Quick Details:\n- **Cost:** $5.99\n- **FREE** on orders $50 or more (automatically applied at checkout\u2014no code needed!)\n\n## Other Shipping Options:\nIf you need your items faster, we also offer:\n- **Expedited Shipping:** 2-3 business days ($12.99)\n- **Overnight Shipping:** Next business day\n\nMost orders ship within 24-48 hours of purchase. If your order hasn't shipped within 3 business days, please check your email for any holds or contact our customer service team for an update.\n\nIs there anything else I can help you with today?",
+      "contexts": [
+        "# NovaMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standard",
+        " or issue a refund.\n\n**Q10: Why hasn't my order shipped yet?**\nA: Most orders ship within 24-48 hours of purchase. Orders placed on weekends or holidays may take longer. High-demand periods may cause slight delays. If your order hasn't shipped within 3 business days, check your email for any holds or issues, or contact customer service for an update.\n\n## Payment and Pricing\n\n**Q11: What payment methods does NovaMart accept?**\nA: NovaMart accepts all major credit cards (Visa, Mastercard, American",
+        "e items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does NovaMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, NovaMart ships to over 100 countries wo"
+      ],
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 0.5862068965517241,
+        "context_quality": 1.0
+      }
+    },
+    {
+      "question": "Can I exchange an item instead of returning it for a refund?",
+      "ground_truth": "Yes, NovaMart offers exchange requests as an alternative to returns",
+      "answer": "# Great Question!\n\nYes, absolutely! **Exchanges are a wonderful option at NovaMart.** \n\nHere's how it works:\n\n\u2713 **Free exchanges** \u2013 There's no cost to exchange an item for a different size or color\n\u2713 **Quick process** \u2013 We'll send your replacement item *before* we ask for the original back\n\u2713 **Easy checkout** \u2013 Simply select \"Exchange\" instead of \"Return\" during the checkout process\n\nThis is a great alternative if you're looking to swap your item rather than get a refund!\n\n**Is there anything specific you'd like to exchange?** If you have any questions about the process or need further assistance, our friendly support team is here to help:\n\n\ud83d\udce7 **Email:** support@novamart.com  \n\ud83d\udcac **Live Chat:** Available on our website\n\nWe're happy to make sure you get exactly what you need!",
+      "contexts": [
+        "ur bank to process the credit.\n\n**Note:** Return shipping is free on most items. However, certain oversized items (furniture, large appliances) may require a shipping fee deducted from your refund.\n\n## Exchanges\nPrefer a different size or color? Exchanges are free! Select \"Exchange\" instead of \"Return\" during checkout, and we'll send your replacement before requesting the original item back.\n\n## Questions?\nContact our friendly support team at support@novamart.com or use our live chat\u2014we're here ",
+        "at Can't Be Returned\n- Personalized or custom items (engraved products, monogrammed goods)\n- Digital downloads or software\n- Opened beauty and personal care items\n- Items purchased during final sale events\n- Products damaged by customer misuse\n\n## Refunds\nOnce we receive and inspect your return, we'll process your refund within **5-7 business days**. Refunds go back to your original payment method. Please allow 3-5 additional business days for your bank to process the credit.\n\n**Note:** Return s",
+        "# NovaMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is NovaMart's return policy?**\nA: Most items purchased from NovaMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your NovaMart account, navigate to \"My "
+      ],
+      "metrics": {
+        "relevance": 0.7142857142857143,
+        "faithfulness": 0.33980582524271846,
+        "context_quality": 1.0
+      }
+    }
+  ]
+}

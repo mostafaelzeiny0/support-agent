@@ -1,0 +1,70 @@
+﻿# Privacy Policy for EasyMart
+
+**Effective Date: [Current Date]**
+
+## 1. Data Collection
+
+EasyMart collects personal information necessary to provide quality service, including:
+- Names and contact information (email, phone, address)
+- Billing and shipping addresses
+- Payment information (processed securely through third-party providers)
+- Order history and preferences
+
+We collect data only when you voluntarily provide it during account creation, checkout, or customer service interactions.
+
+## 2. How We Use Your Data
+
+Your information enables us to:
+- Process and deliver orders
+- Send order confirmations and updates
+- Provide customer support
+- Improve our services and user experience
+- Send promotional communications (with your consent)
+- Comply with legal obligations
+
+## 3. Third-Party Sharing
+
+EasyMart shares personal data only with trusted partners:
+- **Fulfillment partners**: Your shipping address for delivery
+- **Payment processors**: Your payment information for secure transactions
+
+We never sell customer data to marketers or advertisers. All partners must maintain equivalent privacy standards.
+
+## 4. Data Security
+
+We implement industry-standard safeguards, including:
+- SSL encryption for all data transmission
+- Secure payment processing compliance (PCI-DSS)
+- Limited employee access to personal information
+- Regular security audits and updates
+
+## 5. Your Rights
+
+You have the right to:
+- **Access**: Request a copy of your personal data
+- **Correction**: Update inaccurate information
+- **Deletion**: Request data removal (subject to legal requirements)
+- **Opt-out**: Unsubscribe from marketing communications anytime
+
+Submit requests via our privacy contact below.
+
+## 6. Cookie Usage
+
+EasyMart uses cookies to:
+- Remember login information
+- Track browsing preferences
+- Analyze site performance
+- Enhance your shopping experience
+
+You may adjust cookie settings in your browser preferences.
+
+## 7. Contact Us
+
+For privacy concerns, questions, or to exercise your rights:
+
+**EasyMart Privacy Team**
+Email: privacy@EasyMart.com
+Mailing Address: [Address]
+Response time: 30 business days
+
+Your privacy matters to us. We remain committed to protecting your information and maintaining your trust.
