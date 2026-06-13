@@ -65,8 +65,12 @@ def policy_returns_node(state: SupportAgentState) -> SupportAgentState:
     """
     state["current_agent"] = "policy_returns"
 
-    # Get customer query
-    latest_message = state["messages"][-1]["content"] if state["messages"] else ""
+    # Get customer query (find the latest customer message, not just the latest message overall)
+    latest_message = ""
+    for msg in reversed(state["messages"]):
+        if msg.get("role") == "customer":
+            latest_message = msg["content"]
+            break
 
     # Agentic RAG: Decide if retrieval is needed
     retrieval_needed = should_retrieve(state)
@@ -145,6 +149,8 @@ Please provide a helpful, grounded response to the customer's query."""
 
         # Faithfulness verification
         verify_prompt = f"""Given the following customer support response and policy context, determine if the response contains ONLY information from the provided context, or if it contains inferences/assumptions not grounded in the context.
+
+Customer Question: {latest_message}
 
 Policy Context:
 {context}
