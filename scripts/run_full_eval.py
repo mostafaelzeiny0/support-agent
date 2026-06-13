@@ -46,7 +46,20 @@ def print_summary_table(summary: dict, results: list):
     print(f"  Total Conversations:      {summary.get('total_conversations', 0)}")
     print(f"  Intent Accuracy:          {summary.get('intent_accuracy', 0):.1%}")
     print(f"  Resolution Rate:          {summary.get('resolution_rate', 0):.1%}")
+    print()
+
+    # Latency metrics
+    print("LATENCY METRICS")
+    print("-" * 80)
     print(f"  Average Latency:          {summary.get('avg_latency', 0):.2f}s")
+    print(f"  P95 Latency:              {summary.get('p95_latency', 0):.2f}s")
+    print()
+
+    # Context metrics
+    print("CONTEXT RETRIEVAL METRICS")
+    print("-" * 80)
+    print(f"  Context Precision:        {summary.get('context_precision', 0):.3f}")
+    print(f"  Context Recall:           {summary.get('context_recall', 0):.3f}")
     print()
 
     # LLM Judge Scores

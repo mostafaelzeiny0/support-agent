@@ -18,6 +18,40 @@ class EvaluationRunner:
         self.graph = compile_graph()
         self.results = []
 
+    def _evaluate_context_relevance(
+        self, customer_message: str, retrieved_docs: List[Dict[str, Any]], agent_response: str
+    ) -> tuple[float, float]:
+        """
+        Evaluate context precision and recall.
+
+        Context Precision: proportion of retrieved chunks that were relevant to the query
+        Context Recall: proportion of relevant information needed that was retrieved
+
+        Uses heuristic: if agent response references content from a chunk, that chunk is relevant.
+        """
+        if not retrieved_docs:
+            return 0.0, 0.0
+
+        relevant_count = 0
+
+        for doc in retrieved_docs:
+            doc_content = doc.get("content", "").lower()
+            response_lower = agent_response.lower()
+
+            if not doc_content:
+                continue
+
+            keywords = doc_content.split()[:10]
+            relevant = any(kw in response_lower for kw in keywords if len(kw) > 3)
+
+            if relevant:
+                relevant_count += 1
+
+        precision = relevant_count / len(retrieved_docs) if retrieved_docs else 0.0
+        recall = relevant_count / len(retrieved_docs) if retrieved_docs else 0.0
+
+        return round(precision, 3), round(recall, 3)
+
     def run_conversation(self, test_conv: Dict[str, Any]) -> Dict[str, Any]:
         """Run a single test conversation."""
         customer_message = test_conv.get("customer_message", "")
@@ -79,6 +113,11 @@ class EvaluationRunner:
             # Score with LLM judge
             scores = judge_response(customer_message, agent_response, context_str)
 
+            # Calculate context precision and recall
+            context_precision, context_recall = self._evaluate_context_relevance(
+                customer_message, result_state.get("retrieved_docs", []), agent_response
+            )
+
             return {
                 "input": customer_message,
                 "expected_intent": expected_intent,
@@ -89,6 +128,8 @@ class EvaluationRunner:
                 "response": agent_response[:200],
                 "latency": latency,
                 "context_count": len(result_state.get("retrieved_docs", [])),
+                "context_precision": context_precision,
+                "context_recall": context_recall,
                 "scores": scores,
                 "success": True,
             }
@@ -104,6 +145,8 @@ class EvaluationRunner:
                 "response": f"Error: {str(e)}",
                 "latency": time.time() - start_time,
                 "context_count": 0,
+                "context_precision": 0.0,
+                "context_recall": 0.0,
                 "scores": {"policy_compliance": 0, "helpfulness": 0, "groundedness": 0},
                 "success": False,
             }
@@ -140,8 +183,18 @@ class EvaluationRunner:
         resolved = sum(1 for r in successful if not r["escalated"])
         resolution_rate = resolved / len(successful)
 
-        # Average latency
-        avg_latency = sum(r["latency"] for r in successful) / len(successful)
+        # Latency metrics
+        latencies = [r["latency"] for r in successful]
+        avg_latency = sum(latencies) / len(latencies)
+        sorted_latencies = sorted(latencies)
+        p95_index = int(len(sorted_latencies) * 0.95)
+        p95_latency = sorted_latencies[min(p95_index, len(sorted_latencies) - 1)]
+
+        # Context metrics
+        context_precisions = [r.get("context_precision", 0) for r in successful]
+        context_recalls = [r.get("context_recall", 0) for r in successful]
+        avg_context_precision = sum(context_precisions) / len(context_precisions) if context_precisions else 0
+        avg_context_recall = sum(context_recalls) / len(context_recalls) if context_recalls else 0
 
         # LLM judge scores
         policy_scores = [r["scores"]["policy_compliance"] for r in successful]
@@ -169,6 +222,9 @@ class EvaluationRunner:
             "intent_accuracy": intent_accuracy,
             "resolution_rate": resolution_rate,
             "avg_latency": avg_latency,
+            "p95_latency": p95_latency,
+            "context_precision": avg_context_precision,
+            "context_recall": avg_context_recall,
             "policy_compliance": avg_policy,
             "helpfulness": avg_helpfulness,
             "groundedness": avg_groundedness,
