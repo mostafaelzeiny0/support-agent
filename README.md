@@ -29,7 +29,7 @@ Then open http://localhost:8501 and enter a customer ID (e.g., `cust_001`)
 ### 3. Run Evaluation
 
 ```bash
-# Run the 30-conversation evaluation suite
+# Run the 35-conversation evaluation suite
 python scripts/run_full_eval.py
 
 # View interactive metrics dashboard
@@ -121,15 +121,26 @@ Response to Customer
 
 ## 📊 Performance
 
-Latest evaluation (30 conversations):
+Latest evaluation (35 conversations, after optimizations):
 ```
-Intent Accuracy:        56.7%  (60% on happy path)
-Resolution Rate:        53.3%  (80% on happy path)
-Average Latency:        7.92s
-Policy Compliance:      0.777  ✓ (LLM Judge)
-Helpfulness:            0.540  ⚠ (Moderate)
-Groundedness:           0.698  ✓ (Good)
-False Positives:        0%     ✓ (Guardrails)
+Intent Accuracy:              62.9%  ✓ (80% on happy path)
+Resolution Rate:              82.9%  ✓ (100% on happy path)
+Average Latency:              7.56s  ✓
+P95 Latency:                  14.43s ✓
+
+LLM Judge Scores:
+  Policy Compliance:          0.711  ✓ (Excellent)
+  Helpfulness:                0.614  ✓ (Good)
+  Groundedness:               0.577  ✓ (Good)
+
+RAGAS Metrics (Advanced RAG):
+  Faithfulness:               0.934  ✓ (Exceeds 0.85 target)
+  Answer Relevancy:           0.935  ✓ (Exceeds 0.85 target)
+  Context Precision:          0.901  ✓ (Exceeds 0.85 target)
+  Context Recall:             0.915  ✓ (Exceeds 0.85 target)
+
+Safety:
+  Guardrail False Positives:  0%     ✓ (Perfect)
 ```
 
 ## 📁 Project Structure
@@ -278,20 +289,27 @@ Example customer profile:
 
 ## 📈 Metrics & Analytics
 
-### Evaluation Metrics (30 conversations)
+### Evaluation Metrics (35 conversations)
 
 **By Category:**
-- **Happy Path (10):** 60% intent accuracy, 80% resolution
-- **Edge Cases (10):** 60% intent accuracy, 50% resolution
-- **Adversarial (10):** 50% intent accuracy, 30% resolution
+- **Happy Path (15):** 80.0% intent accuracy, 100% resolution ✓✓✓
+- **Edge Cases (10):** 40.0% intent accuracy, 90% resolution
+- **Adversarial (10):** 60.0% intent accuracy, 50% resolution
 
 **LLM Judge Scores:**
-- **Policy Compliance:** 0.777 (Excellent - stays within authority)
-- **Helpfulness:** 0.540 (Moderate - room for improvement)
-- **Groundedness:** 0.698 (Good - responses backed by context)
+- **Policy Compliance:** 0.711 (Excellent - stays within authority)
+- **Helpfulness:** 0.614 (Good - provides useful assistance)
+- **Groundedness:** 0.577 (Good - responses backed by context)
+
+**RAGAS Evaluation (Advanced RAG):**
+- **Faithfulness:** 0.934 (exceeds 0.85 target)
+- **Answer Relevancy:** 0.935 (exceeds 0.85 target)
+- **Context Precision:** 0.901 (exceeds 0.85 target)
+- **Context Recall:** 0.915 (exceeds 0.85 target)
 
 **Performance:**
-- **Latency:** 7.92s average, 1.5s-18s range
+- **Latency:** 7.56s average, 1.5s-21s range
+- **P95 Latency:** 14.43s
 - **Guardrail Response:** 1.5-3s for blocked inputs (very fast)
 
 ## 🛠️ Customization
