@@ -6,6 +6,7 @@ payment questions, and unclear queries.
 from anthropic import Anthropic
 from src.state import SupportAgentState
 from src.memory.memory_manager import get_memory_context_for_agent
+from src.rag.hybrid_retriever import get_hybrid_retriever
 
 client = Anthropic()
 
@@ -54,7 +55,32 @@ def general_support_node(state: SupportAgentState) -> SupportAgentState:
         role = "CUSTOMER" if msg["role"] == "customer" else f"AGENT ({msg.get('agent_name', 'unknown')})"
         conversation_history += f"{role}: {msg['content']}\n"
 
+    # Retrieve FAQ context using hybrid retriever
+    retriever = get_hybrid_retriever()
+    retrieved_docs = retriever.retrieve(latest_message, k=3)
+
+    # Filter to faq.txt documents only
+    faq_docs = [doc for doc in retrieved_docs if doc.get("source", "").lower() == "faq.txt"]
+
+    # Build FAQ context from retrieved documents
+    faq_context = ""
+    if faq_docs:
+        faq_context = "\n\n".join([
+            f"[FAQ]\n{doc['content']}"
+            for doc in faq_docs
+        ])
+
+    state["retrieved_docs"] = faq_docs
+
     # Generate response for product questions, FAQ, shipping, payment, or unclear queries
+    context_instruction = ""
+    if faq_context:
+        context_instruction = f"""
+Relevant FAQ Information:
+{faq_context}
+
+CRITICAL: Answer based ONLY on the retrieved FAQ context above. Do not infer or add information not present in the FAQ documents."""
+
     prompt = f"""You are a helpful EasyMart customer support agent specializing in general inquiries.
 
 {memory_context}
@@ -63,6 +89,7 @@ CONVERSATION HISTORY:
 {conversation_history}
 
 Customer's Latest Query: {latest_message}
+{context_instruction}
 
 Your role is to help with:
 - Product questions (what products does EasyMart have?)
