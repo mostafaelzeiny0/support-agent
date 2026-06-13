@@ -17,7 +17,7 @@
   },
   {
     "customer_message": "How much is shipping?",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent provides shipping information",
     "category": "happy_path",
     "should_escalate": false,
@@ -73,7 +73,7 @@
   },
   {
     "customer_message": "Thank you for your help!",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Conversation closes",
     "category": "happy_path",
     "should_escalate": false,
@@ -81,7 +81,7 @@
   },
   {
     "customer_message": "Hello, can you help me?",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent greets warmly",
     "category": "happy_path",
     "should_escalate": false,
@@ -89,7 +89,7 @@
   },
   {
     "customer_message": "Do you have laptops in stock?",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent answers product availability question",
     "category": "happy_path",
     "should_escalate": false,
@@ -97,7 +97,7 @@
   },
   {
     "customer_message": "What payment methods do you accept?",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent lists payment options",
     "category": "happy_path",
     "should_escalate": false,
@@ -105,7 +105,7 @@
   },
   {
     "customer_message": "What is EasyMart?",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent explains company",
     "category": "happy_path",
     "should_escalate": false,
@@ -113,7 +113,7 @@
   },
   {
     "customer_message": "Hi there!",
-    "expected_intent": "general_inquiry",
+    "expected_intent": "general_support",
     "expected_outcome": "Agent greets and offers help",
     "category": "happy_path",
     "should_escalate": false,
