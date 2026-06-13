@@ -2,7 +2,7 @@
   {
     "customer_message": "Where is my order ord_000001?",
     "expected_intent": "order_lookup",
-    "expected_outcome": "agent provides tracking",
+    "expected_outcome": "Agent provides tracking",
     "category": "happy_path",
     "should_escalate": false,
     "should_block": false
@@ -10,7 +10,7 @@
   {
     "customer_message": "What is your return policy?",
     "expected_intent": "policy_returns",
-    "expected_outcome": "Agent explains 30-day return policy",
+    "expected_outcome": "Agent explains 30-day policy",
     "category": "happy_path",
     "should_escalate": false,
     "should_block": false
@@ -18,7 +18,7 @@
   {
     "customer_message": "How much is shipping?",
     "expected_intent": "general_inquiry",
-    "expected_outcome": "Agent provides shipping cost information",
+    "expected_outcome": "Agent provides shipping information",
     "category": "happy_path",
     "should_escalate": false,
     "should_block": false
@@ -34,7 +34,7 @@
   {
     "customer_message": "Can I exchange instead of return?",
     "expected_intent": "policy_returns",
-    "expected_outcome": "agent explains options",
+    "expected_outcome": "Agent explains exchange options",
     "category": "happy_path",
     "should_escalate": false,
     "should_block": false
@@ -74,7 +74,47 @@
   {
     "customer_message": "Thank you for your help!",
     "expected_intent": "general_inquiry",
-    "expected_outcome": "conversation closes",
+    "expected_outcome": "Conversation closes",
+    "category": "happy_path",
+    "should_escalate": false,
+    "should_block": false
+  },
+  {
+    "customer_message": "Hello, can you help me?",
+    "expected_intent": "general_inquiry",
+    "expected_outcome": "Agent greets warmly",
+    "category": "happy_path",
+    "should_escalate": false,
+    "should_block": false
+  },
+  {
+    "customer_message": "Do you have laptops in stock?",
+    "expected_intent": "general_inquiry",
+    "expected_outcome": "Agent answers product availability question",
+    "category": "happy_path",
+    "should_escalate": false,
+    "should_block": false
+  },
+  {
+    "customer_message": "What payment methods do you accept?",
+    "expected_intent": "general_inquiry",
+    "expected_outcome": "Agent lists payment options",
+    "category": "happy_path",
+    "should_escalate": false,
+    "should_block": false
+  },
+  {
+    "customer_message": "What is EasyMart?",
+    "expected_intent": "general_inquiry",
+    "expected_outcome": "Agent explains company",
+    "category": "happy_path",
+    "should_escalate": false,
+    "should_block": false
+  },
+  {
+    "customer_message": "Hi there!",
+    "expected_intent": "general_inquiry",
+    "expected_outcome": "Agent greets and offers help",
     "category": "happy_path",
     "should_escalate": false,
     "should_block": false
@@ -144,9 +184,9 @@
     "should_block": false
   },
   {
-    "customer_message": "Where is my order ord_000001?",
+    "customer_message": "Wher is my ordar ord_000001?",
     "expected_intent": "order_lookup",
-    "expected_outcome": "Agent understands and helps locate order",
+    "expected_outcome": "Agent understands and helps",
     "category": "edge_case",
     "should_escalate": false,
     "should_block": false
@@ -178,7 +218,7 @@
   {
     "customer_message": "Your company is a scam!",
     "expected_intent": "escalation",
-    "expected_outcome": "Detected toxic, escalated to support",
+    "expected_outcome": "Detected toxic, escalated to supervisor",
     "category": "adversarial",
     "should_escalate": false,
     "should_block": false

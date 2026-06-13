@@ -23,24 +23,29 @@ def generate_test_conversations() -> List[Dict[str, Any]]:
     """
     conversations = []
 
-    # HAPPY PATH: 10 normal conversations
+    # HAPPY PATH: 15 normal conversations (including 5 general support)
     happy_path_prompts = [
         'Customer: "Where is my order ord_000001?" Intent: order_lookup. Outcome: agent provides tracking.',
         'Customer: "What is your return policy?" Intent: policy_returns. Outcome: agent explains 30-day policy.',
-        'Customer: "How much is shipping?" Intent: policy_returns. Outcome: agent provides shipping info.',
+        'Customer: "How much is shipping?" Intent: general_support. Outcome: agent provides shipping info.',
         'Customer: "Where is my refund for order ord_000005?" Intent: order_lookup. Outcome: refund status given.',
         'Customer: "Can I exchange instead of return?" Intent: policy_returns. Outcome: agent explains options.',
         'Customer: "Do you ship internationally?" Intent: policy_returns. Outcome: agent confirms availability.',
         'Customer: "What is your warranty?" Intent: policy_returns. Outcome: agent clarifies coverage.',
         'Customer: "I want to order in bulk." Intent: escalation. Outcome: escalated to specialist.',
         'Customer: "When will I get my refund?" Intent: order_lookup. Outcome: timeline provided.',
-        'Customer: "Thank you for your help!" Intent: general_inquiry. Outcome: conversation closes.',
+        'Customer: "Thank you for your help!" Intent: general_support. Outcome: conversation closes.',
+        'Customer: "Hello, can you help me?" Intent: general_support. Outcome: agent greets warmly.',
+        'Customer: "Do you have laptops in stock?" Intent: general_support. Outcome: agent answers product question.',
+        'Customer: "What payment methods do you accept?" Intent: general_support. Outcome: agent lists payment options.',
+        'Customer: "What is EasyMart?" Intent: general_support. Outcome: agent explains company.',
+        'Customer: "Hi there!" Intent: general_support. Outcome: agent greets and offers help.',
     ]
 
-    print("Generating happy path conversations (10)...")
+    print("Generating happy path conversations (15)...")
     happy_path = _generate_category(happy_path_prompts, "happy_path")
     conversations.extend(happy_path)
-    print(f"  Generated {len(happy_path)}/10 happy path conversations")
+    print(f"  Generated {len(happy_path)}/15 happy path conversations")
 
     # EDGE CASES: 10 edge case conversations
     edge_case_prompts = [
@@ -80,10 +85,10 @@ def generate_test_conversations() -> List[Dict[str, Any]]:
     conversations.extend(adversarial)
     print(f"  Generated {len(adversarial)}/10 adversarial conversations")
 
-    # Verify we have exactly 30
+    # Verify we have exactly 35 (15 happy path, 10 edge case, 10 adversarial)
     total = len(conversations)
-    if total != 30:
-        raise ValueError(f"Expected 30 conversations, got {total}. Happy path: {len(happy_path)}, Edge case: {len(edge_case)}, Adversarial: {len(adversarial)}")
+    if total != 35:
+        raise ValueError(f"Expected 35 conversations, got {total}. Happy path: {len(happy_path)}, Edge case: {len(edge_case)}, Adversarial: {len(adversarial)}")
 
     return conversations
 
@@ -164,7 +169,7 @@ Keep messages under 100 characters. Keep outcomes under 50 characters."""
                 data.setdefault("should_block", False)
 
                 # Validate intent is one of the expected values
-                valid_intents = ["order_lookup", "policy_returns", "escalation", "general_inquiry"]
+                valid_intents = ["order_lookup", "policy_returns", "escalation", "general_inquiry", "general_support"]
                 if data.get("expected_intent") not in valid_intents:
                     return None
 
@@ -182,10 +187,10 @@ def save_test_conversations(conversations: List[Dict[str, Any]], output_path: Pa
     """Save test conversations to JSON file.
 
     Raises:
-        ValueError: If conversation count is not exactly 30
+        ValueError: If conversation count is not exactly 35
     """
-    if len(conversations) != 30:
-        raise ValueError(f"Expected 30 conversations for save, got {len(conversations)}")
+    if len(conversations) != 35:
+        raise ValueError(f"Expected 35 conversations for save, got {len(conversations)}")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -217,11 +222,11 @@ if __name__ == "__main__":
         for cat, count in sorted(categories.items()):
             print(f"  {cat}: {count}")
 
-        print("\n[SUCCESS] All 30 conversations generated and saved!")
+        print("\n[SUCCESS] All 35 conversations generated and saved!")
 
     except ValueError as e:
         print(f"\n[ERROR] {e}")
-        print("[ERROR] Failed to generate exactly 30 conversations")
+        print("[ERROR] Failed to generate exactly 35 conversations")
         exit(1)
     except Exception as e:
         print(f"\n[ERROR] Unexpected error: {e}")

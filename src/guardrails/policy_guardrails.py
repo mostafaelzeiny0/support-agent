@@ -10,8 +10,9 @@ def extract_refund_amount(text: str) -> Optional[float]:
 
     Patterns:
     - "$500", "$500.00"
-    - "500 dollars", "$500 refund"
-    - "full refund of $500"
+    - "500 dollars", "five hundred dollars"
+    - "refund of $300", "credit of $250"
+    - "reimbursement of $400"
 
     Args:
         text: Text to search for amount
@@ -19,16 +20,21 @@ def extract_refund_amount(text: str) -> Optional[float]:
     Returns:
         Float amount or None if not found
     """
+    text_lower = text.lower()
+
+    # Direct currency patterns: $500, $500.00, $5,000
     patterns = [
-        r'\$(\d+(?:\.\d{2})?)',  # $500 or $500.00
-        r'(\d+(?:\.\d{2})?)\s*dollars?',  # 500 dollars or 500 dollar
+        r'\$(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)',  # $500, $5,000, $5,000.00
+        r'(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)\s*dollars?',  # 500 dollars, 5,000 dollars
+        r'(?:refund|credit|reimburse|compensation)\s+(?:of\s+)?\$?(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)',  # refund of $300
     ]
 
     for pattern in patterns:
-        match = re.search(pattern, text.lower())
+        match = re.search(pattern, text_lower)
         if match:
             try:
-                return float(match.group(1))
+                amount_str = match.group(1).replace(',', '')
+                return float(amount_str)
             except (ValueError, IndexError):
                 pass
 
@@ -141,13 +147,18 @@ def check_policy_guardrail(response: str, state: dict) -> tuple[bool, str]:
                 "Policy violation: Promised delivery date not backed by order data"
             )
 
-    # Check 4: Sharing other customers' data
-    if "other customer" in response_lower and any(
-        word in response_lower
-        for word in ["order", "data", "information", "email", "phone", "address"]
-    ):
+    # Check 4: Sharing other customers' data or revealing customer info
+    customer_data_keywords = ["email", "phone", "address", "credit card", "ssn", "password", "order", "customer id"]
+    if any(kw in response_lower for kw in customer_data_keywords):
+        if "other customer" in response_lower or "customer data" in response_lower:
+            violations.append(
+                "Policy violation: Cannot share or reveal other customers' data"
+            )
+
+    # Check 5: Unauthorized order modifications in response
+    if any(phrase in response_lower for phrase in ["i've canceled", "i've changed", "i've modified", "i can cancel your", "i can change your"]):
         violations.append(
-            "Policy violation: Cannot share other customers' data"
+            "Policy violation: Agent cannot modify customer orders directly"
         )
 
     if violations:

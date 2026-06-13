@@ -9,6 +9,7 @@ from src.agents.supervisor import supervisor_node
 from src.agents.order_lookup import order_lookup_node
 from src.agents.policy_returns import policy_returns_node
 from src.agents.escalation import escalation_node
+from src.agents.general_support import general_support_node
 
 
 def should_escalate(state: SupportAgentState) -> str:
@@ -34,8 +35,10 @@ def route_from_supervisor(state: SupportAgentState) -> str:
         return "policy_returns"
     elif intent == "escalation":
         return "escalation"
+    elif intent == "general_support":
+        return "general_support"
     else:
-        return "order_lookup"  # default
+        return "general_support"  # default to general support for unclear queries
 
 
 def build_graph() -> StateGraph:
@@ -47,10 +50,11 @@ def build_graph() -> StateGraph:
     - Specialists:
       - OrderLookup: Handles order status and tracking
       - PolicyReturns: Handles return/refund questions
+      - GeneralSupport: Handles greetings, product questions, FAQ
       - Escalation: Handles complex issues
 
     Flow:
-    Customer -> Supervisor -> [OrderLookup | PolicyReturns | Escalation] -> END
+    Customer -> Supervisor -> [OrderLookup | PolicyReturns | GeneralSupport | Escalation] -> END
     """
     graph = StateGraph(SupportAgentState)
 
@@ -59,6 +63,7 @@ def build_graph() -> StateGraph:
     graph.add_node("order_lookup", order_lookup_node)
     graph.add_node("policy_returns", policy_returns_node)
     graph.add_node("escalation", escalation_node)
+    graph.add_node("general_support", general_support_node)
 
     # Set entry point
     graph.set_entry_point("supervisor")
@@ -71,6 +76,7 @@ def build_graph() -> StateGraph:
             "order_lookup": "order_lookup",
             "policy_returns": "policy_returns",
             "escalation": "escalation",
+            "general_support": "general_support",
         }
     )
 
@@ -78,6 +84,7 @@ def build_graph() -> StateGraph:
     graph.add_edge("order_lookup", END)
     graph.add_edge("policy_returns", END)
     graph.add_edge("escalation", END)
+    graph.add_edge("general_support", END)
 
     return graph
 

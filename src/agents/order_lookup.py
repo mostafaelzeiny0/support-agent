@@ -104,10 +104,19 @@ Customer's Latest Query: {latest_message}
 Order Database Information:
 {order_info}
 
-Please provide a helpful response about the order status. Be friendly and provide specific details about tracking, status, and delivery timing.
-If the order was not found, politely explain that and ask for more information.
-Reference previous context from the conversation and customer memory if relevant.
-When the customer asks about previous issues, complaints, or preferences, use the customer memory provided above to answer directly."""
+Please provide a helpful response about the order status:
+
+GUIDELINES:
+1. If order is found: Provide friendly, specific status update with tracking, delivery estimate, and any relevant dates
+2. If order is NOT found:
+   - Apologize politely
+   - Ask for clarification: "Could you double-check the order ID? It should be in the format ord_XXXXXX"
+   - Offer alternatives: "If you don't have the order ID, I can look it up by your email or phone number"
+   - Be helpful and welcoming - this is not their fault
+3. Reference previous context from the conversation and customer memory if relevant
+4. Use a warm, friendly tone throughout
+
+Always be helpful and make the customer feel supported."""
 
     try:
         response = client.messages.create(

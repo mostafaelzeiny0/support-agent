@@ -77,8 +77,29 @@ Generate this summary clearly and concisely so a human agent can understand the 
     except Exception as e:
         handoff_summary = f"[ERROR] Failed to generate handoff summary: {str(e)}"
 
-    # Provide customer-facing response
-    customer_response = """Thank you for your patience. I understand this situation needs special attention.
+    # Generate customer-facing response with helpful context
+    helpfulness_prompt = f"""Based on this customer issue, provide a BRIEF helpful response while escalating.
+
+Customer Message: {state['messages'][-2]['content'] if len(state['messages']) > 1 else 'Unknown'}
+
+Format:
+[Acknowledge the issue warmly]
+[Provide 1-2 relevant facts that might help while they wait]
+[Explain the escalation and timeline]
+
+Be warm, helpful, and professional. Keep it under 100 words.
+"""
+
+    try:
+        help_response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=150,
+            temperature=0.7,
+            messages=[{"role": "user", "content": helpfulness_prompt}]
+        )
+        customer_response = help_response.content[0].text
+    except Exception:
+        customer_response = """Thank you for your patience. I understand this situation needs special attention.
 I'm connecting you with a senior support specialist who will be able to help you further.
 They will have full context of our conversation and will work to resolve this for you.
 A specialist will reach out to you shortly."""

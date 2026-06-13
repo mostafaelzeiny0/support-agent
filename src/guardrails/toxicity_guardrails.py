@@ -1,8 +1,63 @@
 """Toxicity guardrails: Detect and handle hostile/abusive messages."""
 
+import re
 from anthropic import Anthropic
 
 client = Anthropic()
+
+
+def _detect_toxicity_regex(message: str) -> str:
+    """
+    Fallback regex detection for obvious toxicity.
+    Returns: "safe", "low", "medium", "high"
+    """
+    message_lower = message.lower()
+
+    # High toxicity patterns (threats, extreme language)
+    high_patterns = [
+        r'i will sue',
+        r'i\'ll sue',
+        r'lawsuit',
+        r'kill you',
+        r'fuck',
+        r'shit',
+        r'damn you',
+        r'i\'ll destroy',
+        r'threat',
+        r'post bad review',
+    ]
+
+    # Medium toxicity patterns (clear hostility)
+    medium_patterns = [
+        r'angry|furious|rage|pissed',
+        r'unacceptable',
+        r'terrible|horrible|awful',
+        r'how dare',
+        r'you suck',
+        r'pathetic',
+    ]
+
+    # Low toxicity patterns (mild frustration)
+    low_patterns = [
+        r'frustrated|annoyed|disappointed',
+        r'waste|waste of time',
+        r'never again',
+        r'seriously',
+    ]
+
+    for pattern in high_patterns:
+        if re.search(pattern, message_lower):
+            return "high"
+
+    for pattern in medium_patterns:
+        if re.search(pattern, message_lower):
+            return "medium"
+
+    for pattern in low_patterns:
+        if re.search(pattern, message_lower):
+            return "low"
+
+    return "safe"
 
 
 def check_toxicity_guardrail(message: str) -> tuple[bool, str]:
@@ -67,8 +122,12 @@ Only respond with: "CLASSIFICATION: [SAFE|TOXIC_LOW|TOXIC_MEDIUM|TOXIC_HIGH]" ""
             return True, "safe"
 
     except Exception as e:
-        # On error, allow the message (fail open for safety)
-        return True, "safe"
+        # On API error, fallback to regex detection (fail CLOSED for safety)
+        severity = _detect_toxicity_regex(message)
+        if severity == "safe":
+            return True, "safe"
+        else:
+            return False, severity
 
 
 def get_de_escalation_response() -> str:

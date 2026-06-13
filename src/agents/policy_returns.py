@@ -13,6 +13,46 @@ from src.memory.memory_manager import get_memory_context_for_agent
 client = Anthropic()
 
 
+def should_retrieve(state: SupportAgentState) -> bool:
+    """
+    Decide if retrieval is needed for this query.
+
+    Skip retrieval for:
+    - Conversational messages (greetings, thanks)
+    - Questions already answered in conversation history
+    - Simple clarifications
+
+    Use retrieval for:
+    - Policy-specific questions
+    - New topics
+    - Detailed/specific questions
+    """
+    if not state["messages"]:
+        return True
+
+    latest_message = state["messages"][-1]["content"].lower()
+
+    # Conversational messages - don't need retrieval
+    if any(kw in latest_message for kw in ["thank", "thanks", "hello", "hi", "bye", "okay", "ok"]):
+        return False
+
+    # Check if answer already in conversation history (last 2 agent messages)
+    recent_context = ""
+    for msg in state["messages"][-4:]:
+        if msg.get("role") == "agent":
+            recent_context += msg.get("content", "").lower()
+
+    if recent_context:
+        # If we recently discussed return policy, refund, exchange, etc., we may not need new retrieval
+        if any(keyword in recent_context for keyword in ["return policy", "refund", "exchange", "warranty"]):
+            # Only skip if the question is directly related to what we just discussed
+            if any(keyword in latest_message for keyword in ["same", "what about", "how about", "that"]):
+                return False
+
+    # Default: retrieve for policy questions
+    return True
+
+
 def policy_returns_node(state: SupportAgentState) -> SupportAgentState:
     """
     PolicyReturns specialist handles:
@@ -28,25 +68,32 @@ def policy_returns_node(state: SupportAgentState) -> SupportAgentState:
     # Get customer query
     latest_message = state["messages"][-1]["content"] if state["messages"] else ""
 
-    # Step 1: Query Expansion
-    try:
-        expander = get_query_expander()
-        expanded_query = expander.expand_query(latest_message)
-    except Exception:
-        expanded_query = latest_message
+    # Agentic RAG: Decide if retrieval is needed
+    retrieval_needed = should_retrieve(state)
+    state["retrieval_performed"] = retrieval_needed
 
-    # Step 2: Hybrid Retrieval (semantic + BM25)
-    retriever = get_hybrid_retriever()
-    retrieved_docs = retriever.retrieve(expanded_query, k=5)
-
-    # Step 3: Reranking
-    if retrieved_docs:
+    if retrieval_needed:
+        # Step 1: Query Expansion
         try:
-            reranker = get_reranker()
-            retrieved_docs = reranker.rerank(latest_message, retrieved_docs, top_n=3)
+            expander = get_query_expander()
+            expanded_query = expander.expand_query(latest_message)
         except Exception:
-            # Fallback: use top 3 from hybrid search
-            retrieved_docs = retrieved_docs[:3]
+            expanded_query = latest_message
+
+        # Step 2: Hybrid Retrieval (semantic + BM25)
+        retriever = get_hybrid_retriever()
+        retrieved_docs = retriever.retrieve(expanded_query, k=5)
+
+        # Step 3: Reranking
+        if retrieved_docs:
+            try:
+                reranker = get_reranker()
+                retrieved_docs = reranker.rerank(latest_message, retrieved_docs, top_n=3)
+            except Exception:
+                # Fallback: use top 3 from hybrid search
+                retrieved_docs = retrieved_docs[:3]
+    else:
+        retrieved_docs = []
 
     state["retrieved_docs"] = retrieved_docs
 

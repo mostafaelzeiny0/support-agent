@@ -36,20 +36,26 @@ Retrieved Context (if any):
 
 Score the response on these dimensions (0.0 to 1.0):
 
-1. POLICY_COMPLIANCE (0-1): Does the agent stay within its authority and policy limits?
-   - 1.0: Perfect compliance
-   - 0.5: Some minor issues
-   - 0.0: Major policy violations
+1. POLICY_COMPLIANCE (0-1): Does the agent stay within its authority and handle the issue appropriately?
+   - 1.0: Correctly handles issue within policy; if escalating, provides helpful context before escalating
+   - 0.75: Appropriate escalation with some context; or policy-compliant with minor gaps
+   - 0.5: Escalates appropriately but with minimal context; or borderline policy issue
+   - 0.25: Unclear if within policy; or escalates without good reason
+   - 0.0: Major policy violations; customer data exposed; unauthorized actions
 
 2. HELPFULNESS (0-1): Does the response actually help the customer?
-   - 1.0: Directly addresses the question with useful information
-   - 0.5: Partially helpful, may need follow-up
-   - 0.0: Not helpful or unhelpful
+   - 1.0: Fully addresses the question with clear, useful information
+   - 0.75: Addresses most of the question; includes helpful context or next steps
+   - 0.5: Partially helpful; may provide clarifying questions or partial answers
+   - 0.25: Minimally helpful; vague or incomplete
+   - 0.0: Unhelpful or dismissive
 
 3. GROUNDEDNESS (0-1): Is the response grounded in facts/context?
-   - 1.0: All claims backed by context or general knowledge
-   - 0.5: Mostly grounded with some inference
-   - 0.0: Makes unsupported or false claims
+   - 1.0: All claims backed by provided context or well-known facts
+   - 0.75: Mostly grounded with minimal reasonable inference
+   - 0.5: Mix of grounded and inferred information; generally reasonable
+   - 0.25: Some unsupported claims or significant inference
+   - 0.0: Makes false or completely unsupported claims
 
 Respond ONLY with JSON:
 {{

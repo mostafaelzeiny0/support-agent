@@ -1,8 +1,40 @@
 """Input guardrails: Detect and block prompt injection attempts."""
 
+import re
 from anthropic import Anthropic
 
 client = Anthropic()
+
+
+def _detect_injection_regex(message: str) -> bool:
+    """
+    Fallback regex detection for obvious prompt injection attempts.
+    Fail CLOSED: block on suspected injection.
+    """
+    message_lower = message.lower()
+
+    # Obvious injection patterns
+    injection_patterns = [
+        r'ignore\s+(?:previous|all)?\s*instructions',
+        r'ignore\s+(?:your|the)\s+rules',
+        r'you\s+are\s+now',
+        r'forget\s+your\s+rules',
+        r'forget\s+(?:your|the)\s+instructions',
+        r'system\s*:',
+        r'admin\s*:',
+        r'root\s*:',
+        r'reveal\s+(?:customer\s+)?data',
+        r'show\s+(?:all\s+)?(?:customer|user)\s+data',
+        r'execute\s+command',
+        r'jailbreak',
+        r'dan\s+mode',
+    ]
+
+    for pattern in injection_patterns:
+        if re.search(pattern, message_lower):
+            return True
+
+    return False
 
 
 def check_input_guardrail(message: str) -> tuple[bool, str]:
@@ -61,8 +93,11 @@ Only respond with the classification, nothing else."""
             return True, "Message is safe"
 
     except Exception as e:
-        # On error, allow the message (fail open for safety)
-        return True, f"Guardrail check error: {str(e)}"
+        # On API error, fallback to regex detection (fail CLOSED)
+        if _detect_injection_regex(message):
+            return False, "Prompt injection detected (regex fallback)"
+        else:
+            return True, "API error - regex check passed"
 
 
 def get_safe_response_for_injection() -> str:

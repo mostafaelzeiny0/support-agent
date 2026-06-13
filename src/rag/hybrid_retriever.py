@@ -53,7 +53,7 @@ class HybridRetriever:
         else:
             self.bm25 = None
 
-    def retrieve(self, query: str, k: int = 3) -> List[Dict[str, Any]]:
+    def retrieve(self, query: str, k: int = 5, min_similarity: float = 0.3) -> List[Dict[str, Any]]:
         """
         Retrieve documents using hybrid search (semantic + keyword).
 
@@ -61,11 +61,13 @@ class HybridRetriever:
         1. Semantic search via ChromaDB cosine similarity
         2. Keyword search via BM25
         3. Rank fusion (reciprocal rank fusion)
-        4. Return top-k merged results
+        4. Filter by minimum similarity score
+        5. Return top-k merged results
 
         Args:
             query: Search query
-            k: Number of documents to retrieve
+            k: Number of documents to retrieve (default 5)
+            min_similarity: Minimum similarity score to include (default 0.3)
 
         Returns:
             List of retrieved documents with content and metadata
@@ -81,7 +83,7 @@ class HybridRetriever:
         query_embedding = self.embedding_model.encode(query).tolist()
         semantic_results = self.collection.query(
             query_embeddings=[query_embedding],
-            n_results=min(k * 2, len(all_doc_ids)),  # Get more for fusion
+            n_results=min(k * 3, len(all_doc_ids)),  # Get more for fusion
         )
 
         semantic_scores = {}
@@ -123,8 +125,12 @@ class HybridRetriever:
             if rrf_score > 0:
                 fused_scores[doc_id] = rrf_score
 
-        # 4. Get top-k and format results
-        top_doc_ids = sorted(fused_scores.keys(), key=fused_scores.get, reverse=True)[:k]
+        # 4. Filter by minimum similarity and get top-k
+        filtered_scores = {doc_id: score for doc_id, score in fused_scores.items()
+                          if semantic_scores.get(doc_id, 0.0) >= min_similarity or
+                             bm25_scores.get(doc_id, 0) > 0}
+
+        top_doc_ids = sorted(filtered_scores.keys(), key=filtered_scores.get, reverse=True)[:k]
 
         documents = []
         for doc_id in top_doc_ids:
@@ -140,7 +146,7 @@ class HybridRetriever:
                 "id": doc_id,
                 "content": doc_content,
                 "source": metadata.get("source", "unknown") if metadata else "unknown",
-                "relevance_score": fused_scores[doc_id],
+                "relevance_score": filtered_scores[doc_id],
             }
             documents.append(doc_dict)
 

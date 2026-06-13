@@ -5,6 +5,7 @@ Phase 6: Memory-aware routing with customer context injection.
 
 from anthropic import Anthropic
 from src.state import SupportAgentState
+from src.config import MODEL_NAME, TEMPERATURE, MAX_TOKENS
 from src.memory.memory_manager import (
     load_customer_memory_into_state,
     get_memory_context_for_agent,
@@ -20,6 +21,7 @@ def supervisor_node(state: SupportAgentState) -> SupportAgentState:
     Routes to:
     - OrderLookup: for queries about order status, tracking, delivery, order history
     - PolicyReturns: for return/refund policy questions, returns, exchanges
+    - GeneralSupport: for greetings, product questions, FAQ, shipping costs, payment, unclear queries
     - Escalation: for complex issues, frustrated customers, or requests beyond policy
 
     Phase 6: Loads customer memory and injects context for personalized routing.
@@ -53,38 +55,46 @@ INTENT RULES (in priority order):
    - "where is my order" / "order status" / "tracking"
    - "when will it arrive" / "delivery" / "order number"
    - Any mention of "my order" + order ID
-   - Questions starting with "Where is" + "order"
    Examples:
      - "Where is my order ord_000001?" → ORDER_LOOKUP
-     - "Can you check my order status?" → ORDER_LOOKUP
-     - "What's the tracking number?" → ORDER_LOOKUP
+     - "When will it arrive?" → ORDER_LOOKUP
 
 2. POLICY_RETURNS (for questions about policies):
-   - "return policy" / "refund" / "exchange"
+   - "return policy" / "refund" / "exchange" / "warranty"
    - "how do I return" / "can I exchange"
-   - Questions starting with "What is your" + "policy/return/refund"
    Examples:
      - "What is your return policy?" → POLICY_RETURNS
      - "How long for a refund?" → POLICY_RETURNS
 
-3. ESCALATION (only if customer is EXPLICITLY angry/demanding in THIS message):
-   - Uses words: "angry", "furious", "very upset", "demand", "manager", "unacceptable"
-   - Demands action: "I want to speak to", "escalate", "I demand"
-   - NOT for past issues - only current emotion
+3. ESCALATION (only if customer is EXPLICITLY angry/demanding):
+   - "angry", "furious", "upset", "demand manager"
+   - High-value refunds, product defects
    Examples:
-     - "I am very angry and want to speak to a manager" → ESCALATION
-     - Where is my order + I'm furious → ESCALATION
-     - Where is my order (no anger words) → ORDER_LOOKUP
+     - "I am furious and want a manager" → ESCALATION
+     - "My item is defective!" → ESCALATION
+
+4. GENERAL_SUPPORT (greeting, product questions, FAQ, greetings, thanks):
+   - "Hello", "Hi", "What is EasyMart?", "Do you have [product]?"
+   - "How much is shipping?", "Do you accept PayPal?"
+   - "Thank you", "Thanks for your help"
+   - Conversational or unclear queries
+   Examples:
+     - "Hello, can you help me?" → GENERAL_SUPPORT
+     - "What is EasyMart?" → GENERAL_SUPPORT
+     - "How much do you charge for shipping?" → GENERAL_SUPPORT
+     - "Do you have laptops?" → GENERAL_SUPPORT
+     - "Thank you!" → GENERAL_SUPPORT
 
 Respond with EXACTLY this format:
-INTENT: [ORDER_LOOKUP | POLICY_RETURNS | ESCALATION]
+INTENT: [ORDER_LOOKUP | POLICY_RETURNS | ESCALATION | GENERAL_SUPPORT]
 CONFIDENCE: [0.0-1.0]
 REASONING: [1 sentence]"""
 
     try:
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model=MODEL_NAME,
             max_tokens=150,
+            temperature=TEMPERATURE,
             messages=[{"role": "user", "content": prompt}]
         )
         response_text = response.content[0].text
@@ -102,10 +112,12 @@ REASONING: [1 sentence]"""
                 next_agent = "policy_returns"
             elif "ESCALATION" in intent_text.upper():
                 next_agent = "escalation"
+            elif "GENERAL_SUPPORT" in intent_text.upper():
+                next_agent = "general_support"
             else:
-                next_agent = "order_lookup"  # fallback
+                next_agent = "general_support"  # fallback to general support for unclear queries
         else:
-            next_agent = "order_lookup"  # fallback
+            next_agent = "general_support"  # fallback
 
         if confidence_line:
             try:
@@ -119,12 +131,12 @@ REASONING: [1 sentence]"""
         # Fallback to simple keyword matching if Claude fails
         if any(kw in latest_message.lower() for kw in ["where", "status", "tracking", "order", "deliver"]):
             next_agent = "order_lookup"
-        elif any(kw in latest_message.lower() for kw in ["return", "refund", "policy", "exchange"]):
+        elif any(kw in latest_message.lower() for kw in ["return", "refund", "policy", "exchange", "warranty"]):
             next_agent = "policy_returns"
-        elif any(kw in latest_message.lower() for kw in ["angry", "furious", "upset", "help", "urgent", "problem", "damaged", "wrong"]):
+        elif any(kw in latest_message.lower() for kw in ["angry", "furious", "upset", "damaged", "defective", "demand"]):
             next_agent = "escalation"
         else:
-            next_agent = "order_lookup"
+            next_agent = "general_support"  # Default to general support for unclear queries
         confidence = 0.5
 
     state["current_agent"] = "supervisor"
