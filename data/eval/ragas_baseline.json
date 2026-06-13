@@ -1,0 +1,172 @@
+{
+  "pipeline": "baseline_naive_rag",
+  "metrics": {
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.8549999999999999,
+    "context_precision": 0.777,
+    "context_recall": 0.875
+  },
+  "num_questions": 10,
+  "results": [
+    {
+      "question": "What is EasyMart's return window for purchased items?",
+      "ground_truth": "30 days from the date of purchase",
+      "answer": "# EasyMart Return Window\n\nThank you for your question! At EasyMart, you have **30 days from the date your order arrives** to initiate a return. We count from when the item reaches your door, not from when you originally placed the order.\n\n## Return Conditions\nTo be eligible for a return, your items must be:\n- Unused and in new condition\n- In original packaging with all tags attached\n- Include all accessories and materials that came with the product\n- Free from damage caused by misuse\n\n## Important Exceptions\nPlease note that some items cannot be returned, including:\n- Personalized or custom items\n- Clearance items\n- Perishables\n\n## How to Start a Return\nIt's easy! Just:\n1. Log into your EasyMart account and go to \"My Orders\"\n2. Select the item you'd like to return and click \"Return Request\"",
+      "contexts": [
+        "\ufeff# EasyMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is EasyMart's return policy?**\nA: Most items purchased from EasyMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your EasyMart account, navigate to \"My",
+        "accessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your EasyMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom ite",
+        "\ufeff# EasyMart Return Policy\n\n## Overview\nWe want you to love every purchase! If you're not completely satisfied, we're here to help.\n\n## Return Window\nYou have **30 days from your purchase date** to initiate a return. We count from when your order arrives at your door, not when you ordered it.\n\n## Return Conditions\nTo qualify for a return, items must be:\n- Unused and in new condition\n- In original packaging and with all tags attached\n- Include any accessories or materials that came with the produc"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Can I return personalized or customized items at EasyMart?",
+      "ground_truth": "No, personalized items are typically non-returnable",
+      "answer": "# Response to Your Question\n\nThank you for asking! Unfortunately, **personalized or customized items are typically non-returnable** at EasyMart.\n\nThis applies to any items that have been custom-made or personalized specifically for you. Since these items are made to your unique specifications, we're unable to resell them, which is why returns aren't available for this category.\n\n## What You Can Return\nMost other items can be returned within **30 days of purchase** if they are:\n- Unused and in original condition\n- In resalable condition\n- With all original packaging and accessories\n\n## Before You Purchase\nIf you're considering a personalized item, I'd recommend:\n- Double-checking all customization details before placing your order\n- Reviewing product images and specifications carefully\n- Contacting us if you have any questions before purchasing\n\n## Need Help?\nIf you have a specific concern about a personalized item",
+      "contexts": [
+        "\ufeff# EasyMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is EasyMart's return policy?**\nA: Most items purchased from EasyMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your EasyMart account, navigate to \"My",
+        "accessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your EasyMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom ite",
+        "our bank to process the credit.\n\n**Note:** Return shipping is free on most items. However, certain oversized items (furniture, large appliances) may require a shipping fee deducted from your refund.\n\n## Exchanges\nPrefer a different size or color? Exchanges are free! Select \"Exchange\" instead of \"Return\" during checkout, and we'll send your replacement before requesting the original item back.\n\n## Questions?\nContact our friendly support team at support@EasyMart.com or use our live chat\u2014we're here"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "How long does it take for a refund to be processed at EasyMart?",
+      "ground_truth": "5-10 business days after the return is received",
+      "answer": "# Refund Processing Time at EasyMart\n\nThank you for your question! Here's what you need to know about refund timelines at EasyMart:\n\n**After we receive and inspect your returned item, refunds are typically processed within 7-10 business days.** The refund will be credited back to your original payment method.\n\n## Quick Overview of the Return Process:\n1. Log into your EasyMart account and go to \"My Orders\"\n2. Select the item you wish to return and click \"Return Item\"\n3. Provide a reason for the return\n4. Print your prepaid shipping label\n5. Ship the item back to our warehouse\n6. Once received and inspected, expect your refund within 7-10 business days\n\n**Important Note:** The refund amount will typically be 25-75% of your original purchase price. Also, please be aware that standard shipping is",
+      "contexts": [
+        "A: Log into your EasyMart account, navigate to \"My Orders,\" select the item you wish to return, and click \"Return Item.\" Follow the prompts to provide a reason and print your prepaid shipping label. Once processed, your item will be returned to our warehouse.\n\n**Q3: How long does it take to receive my refund?**\nA: After we receive and inspect your returned item, refunds are typically processed within 7-10 business days. The refund amount will be credited to your original payment method. Please a",
+        "appropriate refund amount, typically ranging from 25-75% of the original purchase price.\n\n## Shipping Refunds\n- **Standard Shipping:** Non-refundable\n- **Expedited Shipping:** Refundable if the return is initiated within 14 days of purchase\n\n## Questions?\nFor refund inquiries or to initiate a return, contact EasyMart Customer Service at support@EasyMart.com or 1-800-EasyMart.\n",
+        "t or issue a refund.\n\n**Q10: Why hasn't my order shipped yet?**\nA: Most orders ship within 24-48 hours of purchase. Orders placed on weekends or holidays may take longer. High-demand periods may cause slight delays. If your order hasn't shipped within 3 business days, check your email for any holds or issues, or contact customer service for an update.\n\n## Payment and Pricing\n\n**Q11: What payment methods does EasyMart accept?**\nA: EasyMart accepts all major credit cards (Visa, Mastercard, America"
+      ],
+      "metrics": {
+        "faithfulness": 0.65,
+        "answer_relevancy": 0.85,
+        "context_precision": 0.33,
+        "context_recall": 0.95
+      }
+    },
+    {
+      "question": "What are EasyMart's shipping costs?",
+      "ground_truth": "$5.99 for standard shipping, $12.99 for expedited shipping",
+      "answer": "# EasyMart Shipping Costs\n\nThank you for your question! Here's a breakdown of our shipping options:\n\n## Standard Shipping\n**$5.99** - Delivery within 5-7 business days\n- *FREE on orders $50 or more*\n\n## Expedited Shipping\n**$12.99** - Guaranteed 2-3 business day delivery\n\n## Free Shipping\nOrders totaling **$50 or more** qualify for complimentary standard shipping. The discount applies automatically at checkout\u2014no code needed!\n\n---\n\n**\ud83d\udca1 Tip:** Once your order ships, you'll receive a tracking number via email so you can monitor your package in real-time.\n\nIs there anything else you'd like to know about our shipping options or delivery times?",
+      "contexts": [
+        "\ufeff# EasyMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standar",
+        "ve items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does EasyMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, EasyMart ships to over 100 countries w",
+        "tically at checkout.\n\n## Shipping Costs\n\n- Standard Shipping: $5.99\n- Expedited Shipping: $12.99\n- Free Shipping: Orders $50+\n\n*Note: Shipping costs calculated at checkout based on destination and selected method.*\n\n## Tracking Your Order\n\nEvery shipment includes a tracking number sent via email once your order ships. Monitor your package's journey in real-time through our website or your carrier's tracking portal.\n\n## International Shipping\n\nEasyMart ships to 100+ countries worldwide. Internati"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Is there free shipping at EasyMart?",
+      "ground_truth": "Yes, free shipping on orders over $50",
+      "answer": "# Free Shipping at EasyMart\n\nGreat question! Yes, we do offer free shipping! \ud83c\udf89\n\n**Here's how it works:**\n\n\u2713 **Free Standard Shipping** is available on orders **$50 or more**\n- No code needed\u2014the discount applies automatically at checkout\n- Standard Shipping typically arrives within 5-7 business days\n\n**Other Shipping Options:**\n- **Expedited Shipping**: $12.99 (2-3 business days)\n- **Standard Shipping**: $5.99 (5-7 business days) - or free on $50+ orders\n\nSo if you're planning to order at least $50 worth of items, you'll qualify for complimentary shipping! If you need your order faster, our Expedited Shipping option is also available for a small fee.\n\nIs there anything else I can help you with regarding your order?",
+      "contexts": [
+        "ve items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does EasyMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, EasyMart ships to over 100 countries w",
+        "\ufeff# EasyMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standar",
+        "tically at checkout.\n\n## Shipping Costs\n\n- Standard Shipping: $5.99\n- Expedited Shipping: $12.99\n- Free Shipping: Orders $50+\n\n*Note: Shipping costs calculated at checkout based on destination and selected method.*\n\n## Tracking Your Order\n\nEvery shipment includes a tracking number sent via email once your order ships. Monitor your package's journey in real-time through our website or your carrier's tracking portal.\n\n## International Shipping\n\nEasyMart ships to 100+ countries worldwide. Internati"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "What is the maximum refund amount before escalation at EasyMart?",
+      "ground_truth": "$150 is the maximum automatic refund without escalation",
+      "answer": "# EasyMart Refund Information\n\nThank you for your question! Based on our refund policy, here's what you need to know:\n\n## Refund Amounts at EasyMart:\n\n**Full Refunds:** Items in original, unused condition with all tags and packaging intact are eligible for **100% refunds** of the original purchase price.\n\n**Partial Refunds:** For items that don't meet full refund conditions, we typically offer refunds ranging from **25-75% of the original purchase price**, depending on the item's condition.\n\n## Important Details:\n- Returns must be initiated **within 30 days of purchase**\n- Items must be unused, unwashed, and in resalable condition\n- All original packaging and accessories must be included\n- Standard shipping is non-refundable\n- Expedited shipping is refundable only if the return is initiated within 14 days",
+      "contexts": [
+        "appropriate refund amount, typically ranging from 25-75% of the original purchase price.\n\n## Shipping Refunds\n- **Standard Shipping:** Non-refundable\n- **Expedited Shipping:** Refundable if the return is initiated within 14 days of purchase\n\n## Questions?\nFor refund inquiries or to initiate a return, contact EasyMart Customer Service at support@EasyMart.com or 1-800-EasyMart.\n",
+        "\ufeff# EasyMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is EasyMart's return policy?**\nA: Most items purchased from EasyMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your EasyMart account, navigate to \"My",
+        "\ufeff# EasyMart Refund Policy\n\n## Overview\nAt EasyMart, we stand behind our products. If you're not completely satisfied with your purchase, we offer a straightforward refund process to ensure your peace of mind.\n\n## Full Refunds\nItems in original, good condition are eligible for full refunds. Products must be unused, unwashed, and in resalable condition with all original tags and packaging intact. To initiate a return, contact our customer service team within 30 days of purchase.\n\n## Refund Process"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.2,
+        "context_precision": 0.1,
+        "context_recall": 0.0
+      }
+    },
+    {
+      "question": "How does EasyMart handle shipping for international orders?",
+      "ground_truth": "EasyMart offers international shipping to select countries",
+      "answer": "# EasyMart International Shipping Information\n\nThank you for your question! I'm happy to help. Here's how EasyMart handles international orders:\n\n## International Shipping Coverage\n\u2713 We ship to **over 100 countries worldwide**\n\n## Delivery Timeline\nInternational orders typically take **10-21 business days** to arrive, depending on your destination country.\n\n## Important Considerations\n- **Customs & Taxes**: You'll be responsible for any applicable customs duties and import taxes that may apply to your order\n- **Processing Time**: Your order will process within 1 business day (excluding weekends and holidays)\n- **Address Requirements**: Your delivery address must match your billing information\n\n## Get Specific Details\nFor exact shipping rates and timeframes for your specific location, I recommend using our **shipping calculator** on our website\u2014it will give you personalized information based on your destination.\n\n## Need More Help?",
+      "contexts": [
+        "?**\nA: Yes, EasyMart ships to over 100 countries worldwide. International shipping typically takes 10-21 business days depending on the destination. Customers are responsible for any applicable customs duties and import taxes. Visit our shipping calculator for specific rates and timeframes.\n\n**Q7: Can I change my shipping address after placing an order?**\nA: If your order hasn't entered our warehouse for packing, you can change the shipping address by contacting customer service immediately. Onc",
+        "ve items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does EasyMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, EasyMart ships to over 100 countries w",
+        "yMart ships to 100+ countries worldwide. International delivery typically takes 10-21 business days depending on location. Customers are responsible for any applicable customs duties or import taxes.\n\n## Shipping Details\n\n- Orders process within 1 business day\n- Weekends and holidays excluded from processing times\n- Remote areas may experience extended delivery\n- Delivery addresses must match billing information\n\n## Questions?\n\nContact our customer service team at support@EasyMart.com or call 1-"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.85,
+        "context_precision": 1.0,
+        "context_recall": 0.95
+      }
+    },
+    {
+      "question": "What should I do if my item arrives damaged?",
+      "ground_truth": "You can request a partial or full refund depending on the damage",
+      "answer": "# Help with Damaged Items\n\nI'm sorry to hear your item arrived damaged! Here's what you should do:\n\n## Quick Steps:\n\n1. **Contact us right away** - Reach out within **14 days** of receiving the item:\n   - Email: support@EasyMart.com\n   - Phone: 1-800-NOVA-MART\n\n2. **Provide photo evidence** - Include clear photos of the damage when you contact us\n\n3. **We'll take care of it** - You have two options:\n   - **Free replacement** sent to you at no cost\n   - **Full refund** to your original payment method\n\n## Important Note:\nSince the item is defective, **you won't need to pay for return shipping**. We'll provide you with a prepaid return label to send the damaged item back.\n\nOnce we receive your return, the refund (if you choose",
+      "contexts": [
+        "accessories or materials that came with the product\n- Free from damage caused by misuse\n\n## How to Start a Return\n1. Log into your EasyMart account and select \"My Orders\"\n2. Choose the item you'd like to return and click \"Return Request\"\n3. Select your reason and follow the prompts\n4. Print your prepaid return shipping label\n5. Pack securely and drop off at any carrier location\n\nWe'll email you tracking information for your return shipment.\n\n## What Can't Be Returned\n- Personalized or custom ite",
+        "credited to your original payment method. Please allow an additional 3-5 business days for the credit to appear depending on your financial institution.\n\n**Q4: What is EasyMart's policy on defective or damaged items?**\nA: If you receive a defective or damaged item, contact our customer service team within 14 days with photos as evidence. We'll either send a replacement at no cost or issue a full refund. No return shipping is necessary for defective items\u2014we'll provide a prepaid return label or a",
+        "er service team at support@EasyMart.com or call 1-800-NOVA-MART for shipping inquiries.\n\n*Policy effective January 2024. Subject to change without notice.*\n"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 0.67,
+        "context_recall": 0.85
+      }
+    },
+    {
+      "question": "How long does standard delivery take at EasyMart?",
+      "ground_truth": "5-7 business days",
+      "answer": "# Standard Delivery at EasyMart\n\nThank you for your question! **Standard delivery at EasyMart takes 5-7 business days.**\n\nHere are a few additional details that might be helpful:\n\n\ud83d\udce6 **Standard Shipping Cost:** $5.99\n- However, **Standard Shipping is complimentary on orders $50 or more!**\n\n\u26a1 **Need it faster?** We also offer:\n- **Expedited Shipping:** 2-3 business days ($12.99)\n- **Overnight Shipping:** Next business day (available based on your location)\n\n**Quick tip:** Most orders ship within 24-48 hours of purchase, so your delivery may arrive even sooner than the standard timeframe!\n\nIs there anything else I can help you with regarding your order or shipping options?",
+      "contexts": [
+        "t or issue a refund.\n\n**Q10: Why hasn't my order shipped yet?**\nA: Most orders ship within 24-48 hours of purchase. Orders placed on weekends or holidays may take longer. High-demand periods may cause slight delays. If your order hasn't shipped within 3 business days, check your email for any holds or issues, or contact customer service for an update.\n\n## Payment and Pricing\n\n**Q11: What payment methods does EasyMart accept?**\nA: EasyMart accepts all major credit cards (Visa, Mastercard, America",
+        "\ufeff# EasyMart Shipping Policy\n\n## Shipping Options\n\n**Standard Shipping**\nDelivery within 5-7 business days. Perfect for planned purchases and everyday items. Cost: $5.99 (complimentary on orders $50+)\n\n**Expedited Shipping**\nNeed your items faster? Choose expedited shipping for guaranteed 2-3 business day delivery. Cost: $12.99\n\n## Free Shipping\n\nOrders totaling $50 or more qualify for free standard shipping. No code needed\u2014discount applies automatically at checkout.\n\n## Shipping Costs\n\n- Standar",
+        "ve items\u2014we'll provide a prepaid return label or authorize you to dispose of the item.\n\n## Shipping and Delivery\n\n**Q5: What shipping options does EasyMart offer?**\nA: We offer Standard Shipping (5-7 business days), Express Shipping (2-3 business days), and Overnight Shipping (next business day). Shipping costs vary by method, order weight, and destination. Free Standard Shipping is available on orders over $50.\n\n**Q6: Do you ship internationally?**\nA: Yes, EasyMart ships to over 100 countries w"
+      ],
+      "metrics": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.95,
+        "context_precision": 0.67,
+        "context_recall": 1.0
+      }
+    },
+    {
+      "question": "Can I exchange an item instead of returning it for a refund?",
+      "ground_truth": "Yes, EasyMart offers exchange requests as an alternative to returns",
+      "answer": "# Hello! Great question!\n\nYes, you absolutely can exchange an item instead of returning it for a refund! Here are the details:\n\n## Exchange Option\n**Exchanges are completely free!** If you'd prefer a different size, color, or style, you can:\n- Select \"Exchange\" instead of \"Return\" during the checkout process\n- We'll send your replacement item **before** requesting the original item back\n\nThis is a convenient option if you're looking to swap your item rather than get a refund.\n\n## Return for Refund (Alternative)\nIf you prefer a refund instead, we also accept returns within **30 days** of purchase. Items must be:\n- Unused and in original condition\n- In resalable condition with all packaging and accessories\n\nOnce we receive and inspect your return, we'll process your refund within 5-7 business days back to your original payment method.\n\n---\n\n**",
+      "contexts": [
+        "\ufeff# EasyMart FAQ Document\n\n## Returns and Refunds\n\n**Q1: What is EasyMart's return policy?**\nA: Most items purchased from EasyMart can be returned within 30 days of purchase in their original condition with all packaging and accessories included. Items must be unused and in resalable condition. Some exceptions apply to clearance items, perishables, and personalized products, which are typically non-returnable.\n\n**Q2: How do I initiate a return?**\nA: Log into your EasyMart account, navigate to \"My",
+        "hat Can't Be Returned\n- Personalized or custom items (engraved products, monogrammed goods)\n- Digital downloads or software\n- Opened beauty and personal care items\n- Items purchased during final sale events\n- Products damaged by customer misuse\n\n## Refunds\nOnce we receive and inspect your return, we'll process your refund within **5-7 business days**. Refunds go back to your original payment method. Please allow 3-5 additional business days for your bank to process the credit.\n\n**Note:** Return ",
+        "our bank to process the credit.\n\n**Note:** Return shipping is free on most items. However, certain oversized items (furniture, large appliances) may require a shipping fee deducted from your refund.\n\n## Exchanges\nPrefer a different size or color? Exchanges are free! Select \"Exchange\" instead of \"Return\" during checkout, and we'll send your replacement before requesting the original item back.\n\n## Questions?\nContact our friendly support team at support@EasyMart.com or use our live chat\u2014we're here"
+      ],
+      "metrics": {
+        "faithfulness": 0.95,
+        "answer_relevancy": 0.95,
+        "context_precision": 1.0,
+        "context_recall": 1.0
+      }
+    }
+  ]
+}
